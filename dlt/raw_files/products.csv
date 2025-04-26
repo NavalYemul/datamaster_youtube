@@ -1,0 +1,8 @@
+product_id,product_name,product_category,product_price,operation,seqNum
+1,break,Electronics,88.45,INSERT,1
+2,rise,Electronics,236.01,INSERT,1
+3,where,Home Goods,436.38,INSERT,1
+4,economic,Electronics,123.91,INSERT,2
+5,decide,Home Goods,201.97,INSERT,2
+1,break,Electronics,88.45,DELETE,3
+3,where,Home Goods,555.38,UPDATE,3

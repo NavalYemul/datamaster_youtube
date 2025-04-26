@@ -1,0 +1,9 @@
+customer_id,customer_name,customer_email,customer_city,customer_state,operation,sequenceNum
+1,Paul Shelton,heathermartinez@example.net,Smithborough,AK,INSERT,1
+2,Brandon Brooks,debraandersen@example.com,New Michaelview,VA,INSERT,1
+3,James Rodriguez,john79@example.org,New Sabrinaborough,AS,INSERT,1
+4,Derek Hawkins,porterjasmine@example.com,Martinezshire,ND,INSERT,1
+5,Beth Turner,ujohnson@example.net,Priceton,CO,INSERT,1
+2,Brandon Brooks,debraandersen@example.com,New York,NY,UPDATE,2
+3,James Rodriguez,john79@example.org,New Sabrinaborough,AS,DELETE,2
+6,Robert,robert@example.com,California,SF,INSERT,2
