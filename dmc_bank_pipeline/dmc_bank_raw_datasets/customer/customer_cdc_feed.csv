@@ -1,0 +1,636 @@
+customer_id,first_name,last_name,email,mobile,date_of_birth,city,state,customer_segment,occupation,risk_rating,kyc_status,home_branch_id,registration_date,updated_at,operation,event_timestamp
+C000001,Yash,Jadhav,yash.jadhav1@example.com,+919699987374,1992-06-11,Pune,Maharashtra,Mass Affluent,Retired,LOW,VERIFIED,BR010,2019-11-23,2026-09-05 10:00:00,INSERT,2026-08-01 09:00:00
+C000002,Vikas,Nair,vikas.nair2@example.com,+918947382419,1992-09-23,Pune,Maharashtra,Mass,Business Owner,LOW,VERIFIED,BR003,2025-10-31,2026-08-25 09:29:00,INSERT,2026-08-01 09:01:00
+C000003,Sakshi,Iyer,sakshi.iyer3@example.com,+918985392498,1994-01-15,Ahmedabad,Gujarat,Mass,Retired,MEDIUM,VERIFIED,BR011,2019-08-18,2026-08-16 05:34:00,INSERT,2026-08-01 09:02:00
+C000004,Chetan,Patil,chetan.patil4@example.com,+918149938334,1965-12-08,Chennai,Tamil Nadu,Mass,Student,MEDIUM,VERIFIED,BR016,2023-06-09,2026-08-21 13:41:00,INSERT,2026-08-01 09:03:00
+C000005,Vivek,More,vivek.more5@example.com,+918059257080,2008-05-09,Nagpur,Maharashtra,Mass,Student,LOW,VERIFIED,BR012,2021-06-17,2026-08-17 04:45:00,INSERT,2026-08-01 09:04:00
+C000006,Ananya,Bhosale,ananya.bhosale6@example.com,+917470939445,1973-09-17,Hyderabad,Telangana,Mass Affluent,Retired,LOW,VERIFIED,BR013,2025-09-06,2026-08-06 01:36:00,INSERT,2026-08-01 09:05:00
+C000007,Neha,Bhosale,neha.bhosale7@example.com,+919921794983,1970-04-11,Solapur,Maharashtra,Mass Affluent,Student,MEDIUM,VERIFIED,BR011,2020-04-01,2026-09-05 00:23:00,INSERT,2026-08-01 09:06:00
+C000008,Diya,Pawar,diya.pawar8@example.com,+918131247330,2004-11-28,Nagpur,Maharashtra,Preferred,Student,MEDIUM,VERIFIED,BR010,2026-03-02,2026-08-30 00:06:00,INSERT,2026-08-01 09:07:00
+C000009,Pooja,Naik,pooja.naik9@example.com,+917693847829,2008-05-22,Nashik,Maharashtra,Private,Student,MEDIUM,VERIFIED,BR016,2019-03-21,2026-08-10 12:45:00,INSERT,2026-08-01 09:08:00
+C000010,Aman,Verma,aman.verma10@example.com,+917248786714,1981-08-10,Chennai,Tamil Nadu,Preferred,Salaried,LOW,VERIFIED,BR003,2024-12-21,2026-08-20 08:10:00,INSERT,2026-08-01 09:09:00
+C000011,Suresh,Deshmukh,suresh.deshmukh11@example.com,+919361388464,1974-10-24,Nagpur,Maharashtra,Mass,Student,LOW,VERIFIED,BR018,2021-04-03,2026-09-12 16:13:00,INSERT,2026-08-01 09:10:00
+C000012,Shreya,Shah,shreya.shah12@example.com,+918603828849,1999-04-21,Bengaluru,Karnataka,Preferred,Professional,LOW,VERIFIED,BR011,2019-03-28,2026-09-12 22:10:00,INSERT,2026-08-01 09:11:00
+C000013,Riya,Singh,riya.singh13@example.com,+917030884438,1966-05-15,Nashik,Maharashtra,Mass Affluent,Salaried,LOW,PENDING,BR011,2019-10-18,2026-09-07 07:31:00,INSERT,2026-08-01 09:12:00
+C000014,Pooja,Nair,pooja.nair14@example.com,+917920140090,2008-05-17,Solapur,Maharashtra,Mass,Student,LOW,VERIFIED,BR016,2023-07-26,2026-09-12 16:34:00,INSERT,2026-08-01 09:13:00
+C000015,Bhavna,Joshi,bhavna.joshi15@example.com,+918521696479,1997-12-31,Pune,Maharashtra,Mass,Retired,LOW,VERIFIED,BR004,2019-09-06,2026-09-12 14:42:00,INSERT,2026-08-01 09:14:00
+C000016,Kiran,Gupta,kiran.gupta16@example.com,+917822873088,1977-01-23,Chennai,Tamil Nadu,Mass Affluent,Self Employed,LOW,VERIFIED,BR008,2019-11-05,2026-08-07 08:29:00,INSERT,2026-08-01 09:15:00
+C000017,Neha,Singh,neha.singh17@example.com,+919321807489,1961-04-28,Pune,Maharashtra,Private,Self Employed,LOW,VERIFIED,BR007,2023-07-01,2026-08-04 22:15:00,INSERT,2026-08-01 09:16:00
+C000018,Vivek,Patil,vivek.patil18@example.com,+918676848676,1983-10-17,Nagpur,Maharashtra,Preferred,Professional,LOW,VERIFIED,BR018,2026-06-04,2026-08-25 00:04:00,INSERT,2026-08-01 09:17:00
+C000019,Shreya,Chavan,shreya.chavan19@example.com,+917935018220,1965-03-31,Nagpur,Maharashtra,Mass Affluent,Student,LOW,VERIFIED,BR002,2025-07-20,2026-08-13 10:07:00,INSERT,2026-08-01 09:18:00
+C000020,Nikhil,Bhosale,nikhil.bhosale20@example.com,+919181106786,1967-03-10,Ahmedabad,Gujarat,Preferred,Salaried,LOW,VERIFIED,BR008,2023-07-12,2026-08-11 01:56:00,INSERT,2026-08-01 09:19:00
+C000021,Aman,Khan,aman.khan21@example.com,+917170689150,1967-05-10,Nashik,Maharashtra,Mass,Student,LOW,VERIFIED,BR009,2021-04-16,2026-09-07 20:17:00,INSERT,2026-08-01 09:20:00
+C000022,Sanjay,Gupta,sanjay.gupta22@example.com,+917562117925,1986-11-30,Nashik,Maharashtra,Mass Affluent,Salaried,LOW,VERIFIED,BR019,2020-02-14,2026-08-17 13:30:00,INSERT,2026-08-01 09:21:00
+C000023,Akash,Singh,akash.singh23@example.com,+917568896616,1991-04-24,Nashik,Maharashtra,Preferred,Self Employed,LOW,VERIFIED,BR018,2022-05-24,2026-09-02 09:03:00,INSERT,2026-08-01 09:22:00
+C000024,Rohan,Bhosale,rohan.bhosale24@example.com,+918285821930,1969-04-17,Mumbai,Maharashtra,Preferred,Self Employed,LOW,VERIFIED,BR018,2020-09-28,2026-09-12 18:55:00,INSERT,2026-08-01 09:23:00
+C000025,Deepak,Shah,deepak.shah25@example.com,+917874443787,1983-09-07,Delhi,Delhi,Mass Affluent,Business Owner,MEDIUM,VERIFIED,BR003,2026-02-11,2026-08-14 11:42:00,INSERT,2026-08-01 09:24:00
+C000026,Meera,Reddy,meera.reddy26@example.com,+917561866144,1983-07-02,Mumbai,Maharashtra,Mass,Professional,LOW,VERIFIED,BR001,2020-04-03,2026-08-01 11:23:00,INSERT,2026-08-01 09:25:00
+C000027,Akash,Deshmukh,akash.deshmukh27@example.com,+919501859536,1973-04-14,Ahmedabad,Gujarat,Mass,Salaried,LOW,VERIFIED,BR002,2023-01-05,2026-08-03 12:36:00,INSERT,2026-08-01 09:26:00
+C000028,Bhavna,Nair,bhavna.nair28@example.com,+919404681399,1996-06-16,Jaipur,Rajasthan,Private,Retired,LOW,PENDING,BR006,2020-12-26,2026-08-07 12:04:00,INSERT,2026-08-01 09:27:00
+C000029,Vivek,Pawar,vivek.pawar29@example.com,+918768294570,1982-04-06,Mumbai,Maharashtra,Mass,Retired,LOW,VERIFIED,BR016,2021-06-30,2026-08-12 11:20:00,INSERT,2026-08-01 09:28:00
+C000030,Bhavna,More,bhavna.more30@example.com,+917957449367,1962-02-14,Thane,Maharashtra,Mass Affluent,Professional,LOW,VERIFIED,BR009,2022-12-09,2026-08-20 07:46:00,INSERT,2026-08-01 09:29:00
+C000031,Sakshi,Bhosale,sakshi.bhosale31@example.com,+918422277848,1962-06-23,Bengaluru,Karnataka,Mass,Business Owner,LOW,PENDING,BR009,2019-06-06,2026-09-13 18:18:00,INSERT,2026-08-01 09:30:00
+C000032,Aman,Naik,aman.naik32@example.com,+918874297457,2005-11-18,Bengaluru,Karnataka,Mass,Student,LOW,VERIFIED,BR014,2019-01-07,2026-08-23 10:42:00,INSERT,2026-08-01 09:31:00
+C000033,Pooja,Singh,pooja.singh33@example.com,+918564319318,1998-09-10,Jaipur,Rajasthan,Mass,Retired,MEDIUM,VERIFIED,BR004,2022-05-15,2026-09-12 06:43:00,INSERT,2026-08-01 09:32:00
+C000034,Pooja,Shah,pooja.shah34@example.com,+918728296502,1986-07-11,Jaipur,Rajasthan,Mass Affluent,Self Employed,LOW,PENDING,BR006,2025-11-26,2026-08-27 11:08:00,INSERT,2026-08-01 09:33:00
+C000035,Riya,Shah,riya.shah35@example.com,+918305132983,1985-09-27,Bengaluru,Karnataka,Mass,Student,LOW,VERIFIED,BR015,2023-12-17,2026-09-05 00:00:00,INSERT,2026-08-01 09:34:00
+C000036,Sanjay,Mehta,sanjay.mehta36@example.com,+919829742424,1967-08-10,Ahmedabad,Gujarat,Mass,Retired,LOW,VERIFIED,BR008,2026-07-18,2026-08-31 05:47:00,INSERT,2026-08-01 09:35:00
+C000037,Diya,Nair,diya.nair37@example.com,+917104906255,1964-02-23,Chennai,Tamil Nadu,Mass,Professional,LOW,VERIFIED,BR015,2023-08-25,2026-08-13 05:01:00,INSERT,2026-08-01 09:36:00
+C000038,Vivek,Khan,vivek.khan38@example.com,+918649174966,2004-05-08,Nashik,Maharashtra,Mass,Self Employed,MEDIUM,VERIFIED,BR004,2023-10-08,2026-09-15 23:46:00,INSERT,2026-08-01 09:37:00
+C000039,Chetan,Iyer,chetan.iyer39@example.com,+918995226582,1964-07-03,Chennai,Tamil Nadu,Mass Affluent,Salaried,LOW,VERIFIED,BR017,2025-04-08,2026-09-14 17:40:00,INSERT,2026-08-01 09:38:00
+C000040,Rohan,Gupta,rohan.gupta40@example.com,+919168005699,1998-04-14,Chennai,Tamil Nadu,Preferred,Student,LOW,VERIFIED,BR016,2024-01-18,2026-08-29 20:54:00,INSERT,2026-08-01 09:39:00
+C000041,Deepak,Nair,deepak.nair41@example.com,+919081328344,1981-06-18,Jaipur,Rajasthan,Mass,Salaried,MEDIUM,VERIFIED,BR011,2022-08-02,2026-08-18 17:47:00,INSERT,2026-08-01 09:40:00
+C000042,Vivek,Singh,vivek.singh42@example.com,+917993260504,1994-05-13,Pune,Maharashtra,Mass Affluent,Retired,LOW,VERIFIED,BR011,2025-01-31,2026-08-09 05:08:00,INSERT,2026-08-01 09:41:00
+C000043,Neha,Pawar,neha.pawar43@example.com,+918672790155,1961-10-02,Mumbai,Maharashtra,Preferred,Student,LOW,VERIFIED,BR012,2022-05-08,2026-08-14 14:20:00,INSERT,2026-08-01 09:42:00
+C000044,Suresh,Jadhav,suresh.jadhav44@example.com,+919590950133,1979-10-14,Bengaluru,Karnataka,Mass Affluent,Business Owner,LOW,VERIFIED,BR011,2026-07-02,2026-09-04 18:38:00,INSERT,2026-08-01 09:43:00
+C000045,Sanjay,Jadhav,sanjay.jadhav45@example.com,+917548157187,2007-12-02,Indore,Madhya Pradesh,Mass,Professional,LOW,VERIFIED,BR003,2026-03-17,2026-08-11 15:57:00,INSERT,2026-08-01 09:44:00
+C000046,Meera,Deshmukh,meera.deshmukh46@example.com,+918117362852,1994-01-04,Hyderabad,Telangana,Mass,Professional,LOW,VERIFIED,BR013,2022-02-13,2026-08-12 01:42:00,INSERT,2026-08-01 09:45:00
+C000047,Suresh,Pawar,suresh.pawar47@example.com,+917083250566,2008-05-23,Solapur,Maharashtra,Mass,Business Owner,LOW,VERIFIED,BR002,2019-05-08,2026-08-06 16:03:00,INSERT,2026-08-01 09:46:00
+C000048,Chetan,Mehta,chetan.mehta48@example.com,+918024542722,1971-04-29,Mumbai,Maharashtra,Mass Affluent,Salaried,LOW,VERIFIED,BR009,2023-02-19,2026-09-09 05:12:00,INSERT,2026-08-01 09:47:00
+C000049,Arjun,Naik,arjun.naik49@example.com,+917703368777,1987-11-27,Delhi,Delhi,Mass,Salaried,MEDIUM,VERIFIED,BR013,2023-06-13,2026-09-15 03:54:00,INSERT,2026-08-01 09:48:00
+C000050,Shreya,Mehta,shreya.mehta50@example.com,+919693985578,1981-10-14,Pune,Maharashtra,Mass,Business Owner,MEDIUM,VERIFIED,BR004,2025-05-07,2026-09-07 23:34:00,INSERT,2026-08-01 09:49:00
+C000051,Tanvi,Patil,tanvi.patil51@example.com,+919841212515,1993-03-30,Thane,Maharashtra,Mass,Retired,LOW,VERIFIED,BR016,2020-03-08,2026-09-04 14:37:00,INSERT,2026-08-01 09:50:00
+C000052,Meera,Verma,meera.verma52@example.com,+918870403050,1975-10-20,Jaipur,Rajasthan,Mass Affluent,Retired,LOW,VERIFIED,BR018,2024-06-03,2026-08-30 05:13:00,INSERT,2026-08-01 09:51:00
+C000053,Neha,Pawar,neha.pawar53@example.com,+918384287616,1982-01-09,Indore,Madhya Pradesh,Preferred,Salaried,LOW,VERIFIED,BR015,2025-05-23,2026-09-07 09:09:00,INSERT,2026-08-01 09:52:00
+C000054,Rohan,Jadhav,rohan.jadhav54@example.com,+918395925222,1976-04-24,Thane,Maharashtra,Mass Affluent,Business Owner,MEDIUM,VERIFIED,BR020,2022-02-05,2026-08-02 16:52:00,INSERT,2026-08-01 09:53:00
+C000055,Rahul,Sharma,rahul.sharma55@example.com,+918036616336,1996-06-17,Ahmedabad,Gujarat,Mass Affluent,Self Employed,MEDIUM,VERIFIED,BR016,2024-01-10,2026-08-13 02:55:00,INSERT,2026-08-01 09:54:00
+C000056,Tanvi,Sharma,tanvi.sharma56@example.com,+918736889606,1981-10-29,Pune,Maharashtra,Mass,Student,LOW,VERIFIED,BR012,2023-10-09,2026-08-19 07:33:00,INSERT,2026-08-01 09:55:00
+C000057,Sneha,Singh,sneha.singh57@example.com,+918948821078,1984-04-21,Thane,Maharashtra,Mass,Self Employed,LOW,VERIFIED,BR004,2025-01-03,2026-08-23 23:59:00,INSERT,2026-08-01 09:56:00
+C000058,Suresh,Iyer,suresh.iyer58@example.com,+918187556862,2007-01-25,Nashik,Maharashtra,Mass Affluent,Salaried,MEDIUM,VERIFIED,BR012,2021-01-04,2026-08-14 16:31:00,INSERT,2026-08-01 09:57:00
+C000059,Diya,Sharma,diya.sharma59@example.com,+918178158203,1964-01-31,Indore,Madhya Pradesh,Private,Student,LOW,PENDING,BR016,2020-02-25,2026-09-04 04:19:00,INSERT,2026-08-01 09:58:00
+C000060,Vikas,Sharma,vikas.sharma60@example.com,+919056061866,1999-07-08,Delhi,Delhi,Mass,Salaried,LOW,VERIFIED,BR004,2019-09-25,2026-08-19 16:01:00,INSERT,2026-08-01 09:59:00
+C000061,Kiran,Chavan,kiran.chavan61@example.com,+919948284698,1964-10-22,Pune,Maharashtra,Mass,Student,MEDIUM,VERIFIED,BR008,2020-04-30,2026-09-06 21:29:00,INSERT,2026-08-01 10:00:00
+C000062,Rahul,Pawar,rahul.pawar62@example.com,+917969318858,2006-11-18,Delhi,Delhi,Mass,Professional,LOW,VERIFIED,BR014,2022-06-04,2026-09-08 21:06:00,INSERT,2026-08-01 10:01:00
+C000063,Riya,Naik,riya.naik63@example.com,+917892442253,1978-12-06,Mumbai,Maharashtra,Mass,Salaried,LOW,VERIFIED,BR003,2020-10-03,2026-09-09 03:23:00,INSERT,2026-08-01 10:02:00
+C000064,Aarav,Pawar,aarav.pawar64@example.com,+919018258729,1986-02-16,Hyderabad,Telangana,Mass,Business Owner,MEDIUM,VERIFIED,BR015,2019-10-19,2026-09-14 20:16:00,INSERT,2026-08-01 10:03:00
+C000065,Sanjay,Nair,sanjay.nair65@example.com,+919839759520,1977-09-30,Solapur,Maharashtra,Mass,Student,LOW,VERIFIED,BR009,2020-08-05,2026-09-10 20:07:00,INSERT,2026-08-01 10:04:00
+C000066,Akash,Patil,akash.patil66@example.com,+919444725646,1985-11-22,Nagpur,Maharashtra,Mass,Professional,MEDIUM,VERIFIED,BR009,2024-08-11,2026-08-20 20:18:00,INSERT,2026-08-01 10:05:00
+C000067,Rahul,Chavan,rahul.chavan67@example.com,+917171200764,1998-10-04,Hyderabad,Telangana,Mass Affluent,Student,LOW,VERIFIED,BR019,2025-08-01,2026-08-06 20:24:00,INSERT,2026-08-01 10:06:00
+C000068,Aarav,Reddy,aarav.reddy68@example.com,+919020785643,2006-07-23,Delhi,Delhi,Mass Affluent,Business Owner,LOW,VERIFIED,BR016,2020-01-09,2026-08-03 05:58:00,INSERT,2026-08-01 10:07:00
+C000069,Nikhil,Verma,nikhil.verma69@example.com,+919878201524,1969-05-20,Bengaluru,Karnataka,Preferred,Business Owner,LOW,VERIFIED,BR013,2025-03-03,2026-08-22 10:57:00,INSERT,2026-08-01 10:08:00
+C000070,Aditi,More,aditi.more70@example.com,+918388450337,1970-05-26,Pune,Maharashtra,Private,Professional,MEDIUM,VERIFIED,BR001,2026-05-17,2026-08-21 08:36:00,INSERT,2026-08-01 10:09:00
+C000071,Vikas,Singh,vikas.singh71@example.com,+917805660882,2006-07-06,Hyderabad,Telangana,Mass,Professional,LOW,VERIFIED,BR007,2021-12-29,2026-08-27 01:51:00,INSERT,2026-08-01 10:10:00
+C000072,Rahul,Deshmukh,rahul.deshmukh72@example.com,+919081821325,1970-11-22,Solapur,Maharashtra,Mass,Retired,LOW,VERIFIED,BR006,2022-06-26,2026-08-29 23:50:00,INSERT,2026-08-01 10:11:00
+C000073,Rahul,Sharma,rahul.sharma73@example.com,+917965081954,1970-03-06,Ahmedabad,Gujarat,Mass Affluent,Salaried,LOW,VERIFIED,BR010,2024-09-15,2026-08-27 03:10:00,INSERT,2026-08-01 10:12:00
+C000074,Shreya,Reddy,shreya.reddy74@example.com,+918046816259,2000-12-23,Bengaluru,Karnataka,Mass Affluent,Professional,LOW,VERIFIED,BR005,2019-10-13,2026-08-31 16:07:00,INSERT,2026-08-01 10:13:00
+C000075,Deepak,Pawar,deepak.pawar75@example.com,+917011017705,1985-05-17,Thane,Maharashtra,Mass Affluent,Student,LOW,VERIFIED,BR005,2024-01-04,2026-09-02 09:07:00,INSERT,2026-08-01 10:14:00
+C000076,Rahul,Chavan,rahul.chavan76@example.com,+919334014365,1993-11-03,Thane,Maharashtra,Mass Affluent,Business Owner,MEDIUM,EXPIRED,BR008,2025-05-31,2026-08-22 18:50:00,INSERT,2026-08-01 10:15:00
+C000077,Kiran,Nair,kiran.nair77@example.com,+918366556920,2002-06-07,Chennai,Tamil Nadu,Mass Affluent,Professional,LOW,VERIFIED,BR005,2024-07-21,2026-08-27 01:29:00,INSERT,2026-08-01 10:16:00
+C000078,Aditi,Deshmukh,aditi.deshmukh78@example.com,+917431062656,1999-07-02,Ahmedabad,Gujarat,Mass,Professional,LOW,VERIFIED,BR005,2019-11-03,2026-09-07 11:19:00,INSERT,2026-08-01 10:17:00
+C000079,Nikhil,Reddy,nikhil.reddy79@example.com,+918707177877,1967-03-16,Thane,Maharashtra,Preferred,Retired,MEDIUM,VERIFIED,BR011,2026-01-11,2026-09-09 23:38:00,INSERT,2026-08-01 10:18:00
+C000080,Shreya,Chavan,shreya.chavan80@example.com,+917293864877,1981-01-22,Ahmedabad,Gujarat,Mass Affluent,Business Owner,HIGH,VERIFIED,BR014,2020-02-08,2026-08-03 21:04:00,INSERT,2026-08-01 10:19:00
+C000081,Suresh,Joshi,suresh.joshi81@example.com,+918286196999,1962-08-06,Hyderabad,Telangana,Mass,Salaried,LOW,VERIFIED,BR005,2021-09-27,2026-08-11 23:41:00,INSERT,2026-08-01 10:20:00
+C000082,Pooja,Pawar,pooja.pawar82@example.com,+917730074215,1975-09-15,Delhi,Delhi,Mass,Professional,LOW,VERIFIED,BR019,2020-08-09,2026-09-13 06:08:00,INSERT,2026-08-01 10:21:00
+C000083,Chetan,More,chetan.more83@example.com,+918096619850,1960-11-03,Jaipur,Rajasthan,Preferred,Professional,MEDIUM,VERIFIED,BR006,2019-10-30,2026-08-17 15:41:00,INSERT,2026-08-01 10:22:00
+C000084,Neha,Verma,neha.verma84@example.com,+918822393017,1982-06-09,Delhi,Delhi,Mass Affluent,Business Owner,LOW,VERIFIED,BR016,2020-03-12,2026-08-20 21:48:00,INSERT,2026-08-01 10:23:00
+C000085,Chetan,Jadhav,chetan.jadhav85@example.com,+918270762239,1986-06-27,Delhi,Delhi,Mass,Retired,LOW,VERIFIED,BR002,2025-10-19,2026-08-23 19:37:00,INSERT,2026-08-01 10:24:00
+C000086,Sneha,Chavan,sneha.chavan86@example.com,+918513206988,1979-08-25,Solapur,Maharashtra,Mass Affluent,Student,LOW,VERIFIED,BR005,2026-01-17,2026-08-15 20:43:00,INSERT,2026-08-01 10:25:00
+C000087,Aman,Patil,aman.patil87@example.com,+919489250532,1992-09-24,Solapur,Maharashtra,Mass Affluent,Salaried,MEDIUM,VERIFIED,BR014,2020-12-20,2026-08-29 01:08:00,INSERT,2026-08-01 10:26:00
+C000088,Bhavna,Deshmukh,bhavna.deshmukh88@example.com,+919279993598,2005-01-06,Chennai,Tamil Nadu,Preferred,Self Employed,LOW,VERIFIED,BR016,2022-04-23,2026-09-04 12:29:00,INSERT,2026-08-01 10:27:00
+C000089,Sneha,Gupta,sneha.gupta89@example.com,+917323408297,1972-08-17,Chennai,Tamil Nadu,Preferred,Self Employed,MEDIUM,VERIFIED,BR013,2025-04-01,2026-08-08 15:59:00,INSERT,2026-08-01 10:28:00
+C000090,Kavya,Kulkarni,kavya.kulkarni90@example.com,+918135840948,2008-02-20,Chennai,Tamil Nadu,Mass,Business Owner,MEDIUM,VERIFIED,BR019,2023-04-10,2026-08-26 00:28:00,INSERT,2026-08-01 10:29:00
+C000091,Varun,Verma,varun.verma91@example.com,+919024977737,1962-03-31,Pune,Maharashtra,Mass Affluent,Student,LOW,VERIFIED,BR003,2026-02-15,2026-09-13 07:58:00,INSERT,2026-08-01 10:30:00
+C000092,Varun,More,varun.more92@example.com,+918753617371,1970-06-20,Indore,Madhya Pradesh,Mass,Salaried,LOW,VERIFIED,BR004,2021-08-19,2026-08-20 22:09:00,INSERT,2026-08-01 10:31:00
+C000093,Vivek,Singh,vivek.singh93@example.com,+918593482331,2008-06-18,Nagpur,Maharashtra,Mass,Retired,MEDIUM,VERIFIED,BR004,2024-06-27,2026-08-25 15:29:00,INSERT,2026-08-01 10:32:00
+C000094,Rohan,Pawar,rohan.pawar94@example.com,+918591414076,1979-06-29,Solapur,Maharashtra,Mass,Self Employed,MEDIUM,VERIFIED,BR012,2025-02-08,2026-08-03 23:33:00,INSERT,2026-08-01 10:33:00
+C000095,Vivek,Verma,vivek.verma95@example.com,+917815221547,1970-12-16,Mumbai,Maharashtra,Preferred,Professional,LOW,VERIFIED,BR020,2019-03-29,2026-08-26 09:25:00,INSERT,2026-08-01 10:34:00
+C000096,Aditi,Gupta,aditi.gupta96@example.com,+917881351238,1966-02-26,Nashik,Maharashtra,Preferred,Student,LOW,VERIFIED,BR008,2022-09-07,2026-08-09 19:16:00,INSERT,2026-08-01 10:35:00
+C000097,Suresh,Deshmukh,suresh.deshmukh97@example.com,+918190886387,1972-12-24,Chennai,Tamil Nadu,Private,Student,LOW,VERIFIED,BR001,2020-06-23,2026-09-08 00:05:00,INSERT,2026-08-01 10:36:00
+C000098,Aarav,Verma,aarav.verma98@example.com,+918390587865,1961-06-01,Chennai,Tamil Nadu,Mass,Salaried,LOW,VERIFIED,BR004,2019-09-18,2026-08-16 20:05:00,INSERT,2026-08-01 10:37:00
+C000099,Nikhil,More,nikhil.more99@example.com,+919549776132,1969-10-13,Chennai,Tamil Nadu,Mass Affluent,Self Employed,MEDIUM,VERIFIED,BR017,2022-05-20,2026-08-24 17:31:00,INSERT,2026-08-01 10:38:00
+C000100,Neha,Sharma,neha.sharma100@example.com,+918830831254,1969-09-07,Mumbai,Maharashtra,Mass Affluent,Professional,LOW,VERIFIED,BR020,2020-08-30,2026-08-31 13:42:00,INSERT,2026-08-01 10:39:00
+C000101,Akash,Deshmukh,akash.deshmukh101@example.com,+919514122177,2009-03-12,Solapur,Maharashtra,Mass Affluent,Professional,HIGH,VERIFIED,BR015,2024-09-01,2026-09-09 21:36:00,INSERT,2026-08-01 10:40:00
+C000102,Rohan,Pawar,rohan.pawar102@example.com,+919811970742,1979-04-16,Pune,Maharashtra,Mass,Self Employed,LOW,VERIFIED,BR013,2023-08-31,2026-09-14 03:54:00,INSERT,2026-08-01 10:41:00
+C000103,Sneha,Joshi,sneha.joshi103@example.com,+919856616537,1982-11-13,Thane,Maharashtra,Mass,Self Employed,MEDIUM,VERIFIED,BR003,2019-12-16,2026-08-28 10:40:00,INSERT,2026-08-01 10:42:00
+C000104,Akash,Pawar,akash.pawar104@example.com,+919389594115,1965-05-19,Pune,Maharashtra,Mass Affluent,Student,LOW,VERIFIED,BR014,2022-12-19,2026-08-24 04:26:00,INSERT,2026-08-01 10:43:00
+C000105,Vikas,Pawar,vikas.pawar105@example.com,+919578741716,1988-01-12,Indore,Madhya Pradesh,Mass,Student,LOW,VERIFIED,BR016,2021-07-07,2026-08-04 09:49:00,INSERT,2026-08-01 10:44:00
+C000106,Vikas,Joshi,vikas.joshi106@example.com,+917493428666,1984-12-28,Thane,Maharashtra,Mass Affluent,Professional,MEDIUM,EXPIRED,BR020,2025-11-18,2026-09-05 12:32:00,INSERT,2026-08-01 10:45:00
+C000107,Sanjay,Singh,sanjay.singh107@example.com,+919978436070,1983-12-29,Mumbai,Maharashtra,Mass,Business Owner,MEDIUM,VERIFIED,BR011,2022-12-08,2026-09-08 22:27:00,INSERT,2026-08-01 10:46:00
+C000108,Aarav,Iyer,aarav.iyer108@example.com,+918721355673,1966-03-30,Nagpur,Maharashtra,Mass,Retired,HIGH,VERIFIED,BR017,2021-05-31,2026-09-06 22:26:00,INSERT,2026-08-01 10:47:00
+C000109,Kiran,Pawar,kiran.pawar109@example.com,+918589365925,1987-12-16,Hyderabad,Telangana,Mass Affluent,Student,LOW,VERIFIED,BR005,2020-10-06,2026-08-22 05:22:00,INSERT,2026-08-01 10:48:00
+C000110,Suresh,Naik,suresh.naik110@example.com,+918168672809,1999-10-02,Mumbai,Maharashtra,Mass Affluent,Professional,LOW,VERIFIED,BR007,2024-09-29,2026-09-13 02:47:00,INSERT,2026-08-01 10:49:00
+C000111,Aman,Verma,aman.verma111@example.com,+919912923661,2003-08-28,Bengaluru,Karnataka,Mass Affluent,Business Owner,LOW,VERIFIED,BR020,2019-08-13,2026-08-08 09:40:00,INSERT,2026-08-01 10:50:00
+C000112,Aarav,Mehta,aarav.mehta112@example.com,+918097447932,1985-12-19,Solapur,Maharashtra,Mass,Salaried,LOW,VERIFIED,BR005,2023-04-07,2026-08-14 04:41:00,INSERT,2026-08-01 10:51:00
+C000113,Rahul,Nair,rahul.nair113@example.com,+918521136431,1966-06-19,Ahmedabad,Gujarat,Mass,Retired,LOW,VERIFIED,BR003,2022-07-06,2026-09-05 22:48:00,INSERT,2026-08-01 10:52:00
+C000114,Riya,Pawar,riya.pawar114@example.com,+918793981895,1985-12-21,Delhi,Delhi,Mass,Salaried,HIGH,VERIFIED,BR020,2024-02-28,2026-08-26 21:51:00,INSERT,2026-08-01 10:53:00
+C000115,Varun,Verma,varun.verma115@example.com,+918045036297,1999-02-01,Pune,Maharashtra,Mass Affluent,Student,LOW,VERIFIED,BR011,2021-06-26,2026-08-28 03:36:00,INSERT,2026-08-01 10:54:00
+C000116,Ishaan,Iyer,ishaan.iyer116@example.com,+917489740688,2007-08-08,Pune,Maharashtra,Mass Affluent,Business Owner,LOW,PENDING,BR005,2021-08-25,2026-09-02 21:36:00,INSERT,2026-08-01 10:55:00
+C000117,Aman,Deshmukh,aman.deshmukh117@example.com,+919587283948,1973-09-18,Solapur,Maharashtra,Preferred,Retired,LOW,PENDING,BR016,2024-03-15,2026-08-13 05:55:00,INSERT,2026-08-01 10:56:00
+C000118,Suresh,Khan,suresh.khan118@example.com,+919925445989,1988-12-29,Chennai,Tamil Nadu,Preferred,Retired,LOW,VERIFIED,BR016,2023-12-17,2026-09-07 15:19:00,INSERT,2026-08-01 10:57:00
+C000119,Sakshi,Shah,sakshi.shah119@example.com,+917241257421,1991-07-29,Chennai,Tamil Nadu,Mass Affluent,Business Owner,LOW,VERIFIED,BR012,2022-03-21,2026-08-18 20:11:00,INSERT,2026-08-01 10:58:00
+C000120,Akash,Kulkarni,akash.kulkarni120@example.com,+918651339677,2001-07-06,Delhi,Delhi,Mass Affluent,Retired,MEDIUM,VERIFIED,BR019,2026-04-23,2026-09-08 17:18:00,INSERT,2026-08-01 10:59:00
+C000121,Bhavna,Gupta,bhavna.gupta121@example.com,+917647943369,1965-07-20,Delhi,Delhi,Mass Affluent,Business Owner,HIGH,VERIFIED,BR006,2019-06-10,2026-08-31 17:06:00,INSERT,2026-08-01 11:00:00
+C000122,Chetan,More,chetan.more122@example.com,+919619094295,1974-03-29,Hyderabad,Telangana,Mass,Business Owner,LOW,VERIFIED,BR020,2019-08-03,2026-09-03 17:50:00,INSERT,2026-08-01 11:01:00
+C000123,Tanvi,Gupta,tanvi.gupta123@example.com,+919396433758,1994-09-05,Pune,Maharashtra,Mass,Retired,MEDIUM,PENDING,BR020,2020-09-07,2026-08-22 03:13:00,INSERT,2026-08-01 11:02:00
+C000124,Ishaan,Kulkarni,ishaan.kulkarni124@example.com,+918502468844,1987-10-31,Delhi,Delhi,Private,Retired,MEDIUM,VERIFIED,BR003,2022-06-22,2026-09-12 04:49:00,INSERT,2026-08-01 11:03:00
+C000125,Rahul,Jadhav,rahul.jadhav125@example.com,+919878128023,2007-03-23,Jaipur,Rajasthan,Mass,Retired,LOW,VERIFIED,BR012,2022-06-19,2026-08-22 04:21:00,INSERT,2026-08-01 11:04:00
+C000126,Arjun,Mehta,arjun.mehta126@example.com,+917972994972,1972-05-04,Thane,Maharashtra,Mass,Business Owner,MEDIUM,VERIFIED,BR018,2024-11-26,2026-09-01 06:33:00,INSERT,2026-08-01 11:05:00
+C000127,Aditi,Gupta,aditi.gupta127@example.com,+919565153945,1993-10-18,Chennai,Tamil Nadu,Mass,Self Employed,MEDIUM,VERIFIED,BR006,2023-11-28,2026-09-09 04:28:00,INSERT,2026-08-01 11:06:00
+C000128,Aditi,Pawar,aditi.pawar128@example.com,+918907818922,1985-07-24,Thane,Maharashtra,Preferred,Professional,LOW,VERIFIED,BR016,2021-03-05,2026-09-13 08:06:00,INSERT,2026-08-01 11:07:00
+C000129,Kavya,Khan,kavya.khan129@example.com,+918640129626,2005-02-12,Hyderabad,Telangana,Mass Affluent,Self Employed,MEDIUM,VERIFIED,BR005,2021-10-21,2026-08-30 09:37:00,INSERT,2026-08-01 11:08:00
+C000130,Aditi,Chavan,aditi.chavan130@example.com,+919215813941,1971-03-09,Thane,Maharashtra,Mass,Self Employed,LOW,PENDING,BR005,2023-11-27,2026-09-05 03:30:00,INSERT,2026-08-01 11:09:00
+C000131,Akash,Nair,akash.nair131@example.com,+918781968664,1964-10-11,Hyderabad,Telangana,Mass,Business Owner,LOW,EXPIRED,BR012,2021-07-08,2026-08-23 00:54:00,INSERT,2026-08-01 11:10:00
+C000132,Aarav,Gupta,aarav.gupta132@example.com,+918440061103,1973-02-06,Pune,Maharashtra,Mass,Business Owner,MEDIUM,VERIFIED,BR005,2024-04-05,2026-09-15 22:11:00,INSERT,2026-08-01 11:11:00
+C000133,Neha,Naik,neha.naik133@example.com,+918099184899,1979-05-07,Mumbai,Maharashtra,Preferred,Student,MEDIUM,VERIFIED,BR014,2020-03-31,2026-08-06 00:38:00,INSERT,2026-08-01 11:12:00
+C000134,Suresh,Shah,suresh.shah134@example.com,+917205082311,1981-05-23,Nashik,Maharashtra,Mass,Student,LOW,VERIFIED,BR016,2025-09-10,2026-08-20 04:09:00,INSERT,2026-08-01 11:13:00
+C000135,Rahul,Sharma,rahul.sharma135@example.com,+918039116361,1972-11-17,Jaipur,Rajasthan,Mass,Salaried,LOW,VERIFIED,BR014,2021-02-06,2026-09-02 19:37:00,INSERT,2026-08-01 11:14:00
+C000136,Sanjay,Kulkarni,sanjay.kulkarni136@example.com,+919259408103,2008-10-23,Ahmedabad,Gujarat,Mass Affluent,Student,LOW,VERIFIED,BR016,2019-06-28,2026-08-24 02:18:00,INSERT,2026-08-01 11:15:00
+C000137,Sakshi,Jadhav,sakshi.jadhav137@example.com,+918533706498,1966-01-22,Thane,Maharashtra,Mass,Retired,MEDIUM,VERIFIED,BR019,2022-09-23,2026-08-17 00:33:00,INSERT,2026-08-01 11:16:00
+C000138,Ananya,Patil,ananya.patil138@example.com,+919760786161,1975-09-16,Thane,Maharashtra,Preferred,Retired,LOW,VERIFIED,BR006,2020-07-06,2026-09-04 11:33:00,INSERT,2026-08-01 11:17:00
+C000139,Akash,More,akash.more139@example.com,+917188146518,1977-11-23,Mumbai,Maharashtra,Preferred,Business Owner,MEDIUM,VERIFIED,BR018,2024-04-23,2026-08-19 06:52:00,INSERT,2026-08-01 11:18:00
+C000140,Deepak,Patil,deepak.patil140@example.com,+918228836941,1992-01-10,Chennai,Tamil Nadu,Preferred,Salaried,MEDIUM,VERIFIED,BR004,2023-02-16,2026-09-11 06:31:00,INSERT,2026-08-01 11:19:00
+C000141,Meera,Jadhav,meera.jadhav141@example.com,+918456151216,1976-10-04,Indore,Madhya Pradesh,Mass Affluent,Professional,LOW,VERIFIED,BR009,2019-12-05,2026-08-29 13:11:00,INSERT,2026-08-01 11:20:00
+C000142,Sneha,Pawar,sneha.pawar142@example.com,+917775054695,2008-12-08,Pune,Maharashtra,Mass,Salaried,LOW,VERIFIED,BR010,2024-01-01,2026-08-28 20:33:00,INSERT,2026-08-01 11:21:00
+C000143,Rohan,Pawar,rohan.pawar143@example.com,+918509882812,2000-02-11,Nagpur,Maharashtra,Mass,Business Owner,LOW,VERIFIED,BR002,2019-11-04,2026-09-14 15:09:00,INSERT,2026-08-01 11:22:00
+C000144,Sanjay,Jadhav,sanjay.jadhav144@example.com,+917687137742,1962-10-17,Thane,Maharashtra,Mass,Student,MEDIUM,VERIFIED,BR005,2019-10-03,2026-09-02 23:11:00,INSERT,2026-08-01 11:23:00
+C000145,Chetan,Verma,chetan.verma145@example.com,+917139093888,1973-10-06,Thane,Maharashtra,Mass Affluent,Business Owner,LOW,VERIFIED,BR019,2020-07-17,2026-08-25 19:21:00,INSERT,2026-08-01 11:24:00
+C000146,Pooja,Verma,pooja.verma146@example.com,+918196963451,1982-05-24,Bengaluru,Karnataka,Private,Salaried,MEDIUM,VERIFIED,BR013,2025-04-19,2026-08-21 22:10:00,INSERT,2026-08-01 11:25:00
+C000147,Aman,Reddy,aman.reddy147@example.com,+917921572928,1985-08-14,Chennai,Tamil Nadu,Mass Affluent,Professional,LOW,VERIFIED,BR003,2024-01-26,2026-08-17 15:13:00,INSERT,2026-08-01 11:26:00
+C000148,Arjun,More,arjun.more148@example.com,+919868350055,1991-03-03,Pune,Maharashtra,Mass Affluent,Student,LOW,VERIFIED,BR006,2026-02-25,2026-09-13 10:54:00,INSERT,2026-08-01 11:27:00
+C000149,Arjun,Verma,arjun.verma149@example.com,+917863204110,1972-06-16,Ahmedabad,Gujarat,Mass,Professional,LOW,VERIFIED,BR012,2024-03-29,2026-08-15 04:08:00,INSERT,2026-08-01 11:28:00
+C000150,Tanvi,Singh,tanvi.singh150@example.com,+917282385977,1987-09-30,Nagpur,Maharashtra,Mass,Retired,MEDIUM,VERIFIED,BR014,2025-06-12,2026-09-09 02:56:00,INSERT,2026-08-01 11:29:00
+C000151,Akash,Deshmukh,akash.deshmukh151@example.com,+918932625737,2001-10-16,Thane,Maharashtra,Mass Affluent,Business Owner,LOW,VERIFIED,BR018,2026-03-05,2026-09-11 02:31:00,INSERT,2026-08-01 11:30:00
+C000152,Riya,Iyer,riya.iyer152@example.com,+919159783506,1964-12-20,Chennai,Tamil Nadu,Preferred,Student,LOW,VERIFIED,BR011,2021-07-12,2026-08-09 14:46:00,INSERT,2026-08-01 11:31:00
+C000153,Kavya,Bhosale,kavya.bhosale153@example.com,+917843110305,1984-08-15,Solapur,Maharashtra,Mass,Business Owner,LOW,VERIFIED,BR006,2025-08-21,2026-08-06 08:33:00,INSERT,2026-08-01 11:32:00
+C000154,Riya,Deshmukh,riya.deshmukh154@example.com,+919599051823,1990-04-16,Nagpur,Maharashtra,Preferred,Student,LOW,VERIFIED,BR003,2019-07-06,2026-09-12 21:18:00,INSERT,2026-08-01 11:33:00
+C000155,Sakshi,Khan,sakshi.khan155@example.com,+919457310580,1997-05-16,Solapur,Maharashtra,Mass Affluent,Salaried,LOW,VERIFIED,BR010,2026-03-14,2026-09-11 07:11:00,INSERT,2026-08-01 11:34:00
+C000156,Diya,Chavan,diya.chavan156@example.com,+918277468755,2000-09-08,Nashik,Maharashtra,Mass,Salaried,LOW,VERIFIED,BR015,2021-04-15,2026-09-13 13:51:00,INSERT,2026-08-01 11:35:00
+C000157,Ishaan,Naik,ishaan.naik157@example.com,+918483355242,1995-10-09,Nagpur,Maharashtra,Mass,Business Owner,LOW,VERIFIED,BR008,2024-03-25,2026-08-21 10:53:00,INSERT,2026-08-01 11:36:00
+C000158,Aman,Reddy,aman.reddy158@example.com,+917415802902,1964-07-16,Hyderabad,Telangana,Mass,Professional,MEDIUM,VERIFIED,BR006,2022-09-03,2026-08-16 04:48:00,INSERT,2026-08-01 11:37:00
+C000159,Yash,Khan,yash.khan159@example.com,+917684370461,2004-09-13,Indore,Madhya Pradesh,Private,Professional,LOW,VERIFIED,BR001,2020-01-04,2026-08-21 06:28:00,INSERT,2026-08-01 11:38:00
+C000160,Kiran,Bhosale,kiran.bhosale160@example.com,+919505443885,1991-08-29,Hyderabad,Telangana,Mass,Business Owner,LOW,VERIFIED,BR016,2022-03-16,2026-08-16 07:20:00,INSERT,2026-08-01 11:39:00
+C000161,Rahul,Sharma,rahul.sharma161@example.com,+918135902437,1992-10-24,Pune,Maharashtra,Preferred,Business Owner,LOW,VERIFIED,BR018,2021-03-08,2026-08-28 04:34:00,INSERT,2026-08-01 11:40:00
+C000162,Kavya,Singh,kavya.singh162@example.com,+919165761020,2000-05-27,Solapur,Maharashtra,Preferred,Business Owner,MEDIUM,VERIFIED,BR020,2020-05-01,2026-08-05 13:11:00,INSERT,2026-08-01 11:41:00
+C000163,Ananya,Joshi,ananya.joshi163@example.com,+919395869480,1992-10-19,Bengaluru,Karnataka,Preferred,Self Employed,LOW,VERIFIED,BR002,2019-07-05,2026-08-24 11:34:00,INSERT,2026-08-01 11:42:00
+C000164,Aditi,Deshmukh,aditi.deshmukh164@example.com,+919230517007,2000-12-30,Indore,Madhya Pradesh,Mass,Student,LOW,PENDING,BR011,2020-10-27,2026-08-22 16:10:00,INSERT,2026-08-01 11:43:00
+C000165,Kiran,Naik,kiran.naik165@example.com,+918444712976,2005-07-06,Indore,Madhya Pradesh,Preferred,Student,LOW,VERIFIED,BR016,2019-03-10,2026-08-20 20:15:00,INSERT,2026-08-01 11:44:00
+C000166,Kavya,Gupta,kavya.gupta166@example.com,+919506981604,1987-08-08,Jaipur,Rajasthan,Preferred,Retired,MEDIUM,VERIFIED,BR020,2024-04-27,2026-08-08 14:13:00,INSERT,2026-08-01 11:45:00
+C000167,Deepak,Khan,deepak.khan167@example.com,+919506213395,2003-02-07,Delhi,Delhi,Mass,Retired,MEDIUM,VERIFIED,BR013,2020-08-28,2026-08-15 01:45:00,INSERT,2026-08-01 11:46:00
+C000168,Varun,Nair,varun.nair168@example.com,+917471997674,1977-02-11,Mumbai,Maharashtra,Mass,Business Owner,LOW,VERIFIED,BR007,2023-08-08,2026-09-06 23:54:00,INSERT,2026-08-01 11:47:00
+C000169,Pooja,Naik,pooja.naik169@example.com,+919227727430,1978-08-08,Hyderabad,Telangana,Mass Affluent,Retired,LOW,VERIFIED,BR006,2024-02-26,2026-08-04 04:42:00,INSERT,2026-08-01 11:48:00
+C000170,Yash,Singh,yash.singh170@example.com,+919902833426,1983-09-19,Thane,Maharashtra,Mass Affluent,Self Employed,HIGH,VERIFIED,BR010,2021-07-10,2026-09-04 12:05:00,INSERT,2026-08-01 11:49:00
+C000171,Diya,Shah,diya.shah171@example.com,+919100252248,1988-06-10,Indore,Madhya Pradesh,Mass Affluent,Student,MEDIUM,VERIFIED,BR009,2022-03-24,2026-08-14 23:33:00,INSERT,2026-08-01 11:50:00
+C000172,Aman,Khan,aman.khan172@example.com,+918694503971,1990-12-18,Jaipur,Rajasthan,Private,Self Employed,LOW,VERIFIED,BR003,2022-11-19,2026-09-04 12:57:00,INSERT,2026-08-01 11:51:00
+C000173,Yash,More,yash.more173@example.com,+917919066362,1978-02-16,Jaipur,Rajasthan,Preferred,Business Owner,MEDIUM,VERIFIED,BR005,2020-03-23,2026-08-17 16:21:00,INSERT,2026-08-01 11:52:00
+C000174,Rohan,Khan,rohan.khan174@example.com,+919876914972,2007-08-23,Nashik,Maharashtra,Mass,Self Employed,LOW,VERIFIED,BR016,2020-02-16,2026-08-16 01:43:00,INSERT,2026-08-01 11:53:00
+C000175,Sanjay,Deshmukh,sanjay.deshmukh175@example.com,+918747654202,2002-09-04,Mumbai,Maharashtra,Mass Affluent,Self Employed,MEDIUM,VERIFIED,BR010,2026-03-30,2026-09-05 05:23:00,INSERT,2026-08-01 11:54:00
+C000176,Aditi,Kulkarni,aditi.kulkarni176@example.com,+919298461504,1963-05-07,Jaipur,Rajasthan,Preferred,Self Employed,LOW,VERIFIED,BR002,2023-06-15,2026-09-06 07:55:00,INSERT,2026-08-01 11:55:00
+C000177,Tanvi,Chavan,tanvi.chavan177@example.com,+917039802179,1986-10-08,Nagpur,Maharashtra,Mass Affluent,Salaried,MEDIUM,VERIFIED,BR015,2026-03-11,2026-08-19 01:16:00,INSERT,2026-08-01 11:56:00
+C000178,Rahul,Bhosale,rahul.bhosale178@example.com,+919010133918,1984-06-23,Hyderabad,Telangana,Mass,Salaried,LOW,VERIFIED,BR009,2021-02-01,2026-08-09 17:12:00,INSERT,2026-08-01 11:57:00
+C000179,Aarav,Gupta,aarav.gupta179@example.com,+919896530837,1977-04-30,Chennai,Tamil Nadu,Mass,Retired,MEDIUM,VERIFIED,BR017,2022-09-05,2026-08-19 19:22:00,INSERT,2026-08-01 11:58:00
+C000180,Akash,Jadhav,akash.jadhav180@example.com,+917603923411,2002-11-01,Jaipur,Rajasthan,Mass,Self Employed,LOW,VERIFIED,BR015,2021-12-29,2026-08-07 06:18:00,INSERT,2026-08-01 11:59:00
+C000181,Ishaan,Shah,ishaan.shah181@example.com,+918123362233,1992-04-03,Delhi,Delhi,Mass Affluent,Salaried,MEDIUM,VERIFIED,BR006,2023-07-19,2026-09-06 00:23:00,INSERT,2026-08-01 12:00:00
+C000182,Sanjay,Bhosale,sanjay.bhosale182@example.com,+917504296774,1986-06-20,Indore,Madhya Pradesh,Mass,Self Employed,LOW,VERIFIED,BR005,2024-02-07,2026-08-20 23:33:00,INSERT,2026-08-01 12:01:00
+C000183,Sneha,Naik,sneha.naik183@example.com,+919358944233,2002-03-29,Thane,Maharashtra,Preferred,Retired,MEDIUM,VERIFIED,BR020,2019-12-02,2026-08-27 23:57:00,INSERT,2026-08-01 12:02:00
+C000184,Pooja,More,pooja.more184@example.com,+917335448617,1970-01-24,Ahmedabad,Gujarat,Mass,Student,MEDIUM,VERIFIED,BR018,2020-09-05,2026-09-15 12:20:00,INSERT,2026-08-01 12:03:00
+C000185,Arjun,Gupta,arjun.gupta185@example.com,+919921845810,1978-06-05,Ahmedabad,Gujarat,Mass Affluent,Professional,LOW,VERIFIED,BR002,2024-02-01,2026-08-29 03:58:00,INSERT,2026-08-01 12:04:00
+C000186,Ananya,Bhosale,ananya.bhosale186@example.com,+917247977570,2001-06-25,Bengaluru,Karnataka,Mass Affluent,Business Owner,MEDIUM,VERIFIED,BR001,2021-06-11,2026-08-30 19:14:00,INSERT,2026-08-01 12:05:00
+C000187,Riya,Kulkarni,riya.kulkarni187@example.com,+917273846739,2008-07-19,Mumbai,Maharashtra,Private,Salaried,HIGH,VERIFIED,BR010,2023-08-02,2026-08-28 11:45:00,INSERT,2026-08-01 12:06:00
+C000188,Arjun,Deshmukh,arjun.deshmukh188@example.com,+918805440796,1993-08-05,Chennai,Tamil Nadu,Private,Professional,LOW,PENDING,BR013,2023-03-19,2026-09-11 22:02:00,INSERT,2026-08-01 12:07:00
+C000189,Akash,Singh,akash.singh189@example.com,+917509525588,1976-01-05,Nagpur,Maharashtra,Private,Professional,LOW,VERIFIED,BR008,2019-01-15,2026-09-11 11:52:00,INSERT,2026-08-01 12:08:00
+C000190,Suresh,Sharma,suresh.sharma190@example.com,+919338374929,1998-01-18,Solapur,Maharashtra,Mass Affluent,Self Employed,LOW,VERIFIED,BR009,2021-02-11,2026-08-30 22:59:00,INSERT,2026-08-01 12:09:00
+C000191,Yash,Joshi,yash.joshi191@example.com,+919641075042,1961-05-27,Mumbai,Maharashtra,Mass,Salaried,LOW,VERIFIED,BR020,2026-07-15,2026-09-12 14:18:00,INSERT,2026-08-01 12:10:00
+C000192,Shreya,Patil,shreya.patil192@example.com,+918885330933,1981-01-08,Nashik,Maharashtra,Mass Affluent,Salaried,LOW,EXPIRED,BR008,2025-06-17,2026-08-03 13:43:00,INSERT,2026-08-01 12:11:00
+C000193,Ishaan,Khan,ishaan.khan193@example.com,+918017495081,1987-01-27,Delhi,Delhi,Preferred,Retired,LOW,VERIFIED,BR009,2019-09-07,2026-09-13 10:56:00,INSERT,2026-08-01 12:12:00
+C000194,Rahul,Khan,rahul.khan194@example.com,+919915209592,1998-04-29,Indore,Madhya Pradesh,Mass Affluent,Salaried,HIGH,PENDING,BR013,2024-11-18,2026-08-12 21:22:00,INSERT,2026-08-01 12:13:00
+C000195,Ishaan,Pawar,ishaan.pawar195@example.com,+918616884203,1976-06-30,Bengaluru,Karnataka,Preferred,Professional,LOW,VERIFIED,BR005,2024-03-11,2026-08-10 10:14:00,INSERT,2026-08-01 12:14:00
+C000196,Yash,Patil,yash.patil196@example.com,+919393528385,2007-07-19,Ahmedabad,Gujarat,Mass,Self Employed,LOW,VERIFIED,BR003,2024-01-17,2026-08-27 14:13:00,INSERT,2026-08-01 12:15:00
+C000197,Vikas,Verma,vikas.verma197@example.com,+917221348142,1984-01-31,Pune,Maharashtra,Mass,Student,LOW,VERIFIED,BR007,2025-08-03,2026-09-04 06:30:00,INSERT,2026-08-01 12:16:00
+C000198,Sneha,Singh,sneha.singh198@example.com,+918430070821,1987-03-14,Nashik,Maharashtra,Private,Salaried,LOW,VERIFIED,BR004,2024-05-15,2026-08-31 07:07:00,INSERT,2026-08-01 12:17:00
+C000199,Yash,Nair,yash.nair199@example.com,+918703521697,1981-06-21,Indore,Madhya Pradesh,Mass Affluent,Business Owner,LOW,VERIFIED,BR012,2022-06-17,2026-09-08 06:58:00,INSERT,2026-08-01 12:18:00
+C000200,Deepak,Verma,deepak.verma200@example.com,+917423519117,2002-02-13,Ahmedabad,Gujarat,Preferred,Business Owner,MEDIUM,VERIFIED,BR014,2019-07-07,2026-09-01 15:54:00,INSERT,2026-08-01 12:19:00
+C000201,Riya,Nair,riya.nair201@example.com,+918120016279,1997-06-18,Indore,Madhya Pradesh,Mass,Self Employed,LOW,VERIFIED,BR008,2024-08-07,2026-08-10 00:33:00,INSERT,2026-08-01 12:20:00
+C000202,Rahul,Gupta,rahul.gupta202@example.com,+919107091983,2001-05-05,Solapur,Maharashtra,Mass,Business Owner,LOW,VERIFIED,BR016,2021-01-23,2026-09-01 21:54:00,INSERT,2026-08-01 12:21:00
+C000203,Yash,Singh,yash.singh203@example.com,+917145271935,1966-09-01,Jaipur,Rajasthan,Preferred,Retired,LOW,VERIFIED,BR005,2026-01-27,2026-08-04 17:53:00,INSERT,2026-08-01 12:22:00
+C000204,Chetan,Kulkarni,chetan.kulkarni204@example.com,+917939393836,2005-05-15,Indore,Madhya Pradesh,Mass Affluent,Salaried,LOW,VERIFIED,BR020,2024-06-02,2026-08-10 00:18:00,INSERT,2026-08-01 12:23:00
+C000205,Sanjay,Chavan,sanjay.chavan205@example.com,+919369291047,1996-11-25,Mumbai,Maharashtra,Mass,Student,MEDIUM,VERIFIED,BR010,2019-03-12,2026-08-01 18:09:00,INSERT,2026-08-01 12:24:00
+C000206,Pooja,Pawar,pooja.pawar206@example.com,+917413665007,2007-01-17,Chennai,Tamil Nadu,Mass,Self Employed,LOW,VERIFIED,BR012,2021-12-30,2026-08-12 03:39:00,INSERT,2026-08-01 12:25:00
+C000207,Tanvi,Jadhav,tanvi.jadhav207@example.com,+918971380304,1981-10-26,Pune,Maharashtra,Private,Self Employed,LOW,VERIFIED,BR003,2026-05-01,2026-08-24 13:51:00,INSERT,2026-08-01 12:26:00
+C000208,Vikas,Patil,vikas.patil208@example.com,+918619930972,2002-09-14,Pune,Maharashtra,Mass,Salaried,MEDIUM,VERIFIED,BR014,2026-03-26,2026-08-26 12:56:00,INSERT,2026-08-01 12:27:00
+C000209,Tanvi,Gupta,tanvi.gupta209@example.com,+917182758417,1980-08-11,Delhi,Delhi,Mass,Retired,MEDIUM,VERIFIED,BR002,2019-11-01,2026-08-07 18:01:00,INSERT,2026-08-01 12:28:00
+C000210,Sanjay,Reddy,sanjay.reddy210@example.com,+917141312095,1976-02-03,Ahmedabad,Gujarat,Preferred,Business Owner,LOW,VERIFIED,BR005,2023-06-20,2026-09-06 22:27:00,INSERT,2026-08-01 12:29:00
+C000211,Yash,Kulkarni,yash.kulkarni211@example.com,+918032820212,1994-11-29,Solapur,Maharashtra,Mass Affluent,Student,LOW,VERIFIED,BR005,2019-11-18,2026-08-11 19:14:00,INSERT,2026-08-01 12:30:00
+C000212,Pooja,Verma,pooja.verma212@example.com,+917997050893,1966-10-26,Mumbai,Maharashtra,Mass,Student,HIGH,VERIFIED,BR011,2019-05-02,2026-08-07 14:55:00,INSERT,2026-08-01 12:31:00
+C000213,Sakshi,Reddy,sakshi.reddy213@example.com,+917979846924,1991-12-03,Chennai,Tamil Nadu,Mass Affluent,Professional,LOW,VERIFIED,BR013,2019-12-18,2026-08-29 16:44:00,INSERT,2026-08-01 12:32:00
+C000214,Suresh,Naik,suresh.naik214@example.com,+917352350576,1984-01-15,Solapur,Maharashtra,Mass,Retired,MEDIUM,VERIFIED,BR013,2022-07-21,2026-08-16 02:30:00,INSERT,2026-08-01 12:33:00
+C000215,Kavya,Joshi,kavya.joshi215@example.com,+918910126009,1992-04-15,Pune,Maharashtra,Preferred,Salaried,LOW,VERIFIED,BR015,2025-03-31,2026-08-01 10:31:00,INSERT,2026-08-01 12:34:00
+C000216,Rahul,Bhosale,rahul.bhosale216@example.com,+917384909986,1991-10-02,Bengaluru,Karnataka,Mass Affluent,Student,LOW,VERIFIED,BR013,2019-02-20,2026-08-07 00:53:00,INSERT,2026-08-01 12:35:00
+C000217,Diya,Pawar,diya.pawar217@example.com,+918042571199,2006-10-01,Bengaluru,Karnataka,Mass,Professional,LOW,VERIFIED,BR009,2024-07-12,2026-08-06 19:05:00,INSERT,2026-08-01 12:36:00
+C000218,Ananya,Kulkarni,ananya.kulkarni218@example.com,+918808620775,1986-11-22,Nagpur,Maharashtra,Mass Affluent,Salaried,LOW,PENDING,BR016,2025-08-29,2026-08-28 09:25:00,INSERT,2026-08-01 12:37:00
+C000219,Rohan,Mehta,rohan.mehta219@example.com,+918308496151,1960-08-09,Hyderabad,Telangana,Preferred,Business Owner,MEDIUM,VERIFIED,BR011,2023-12-09,2026-08-07 04:37:00,INSERT,2026-08-01 12:38:00
+C000220,Ishaan,Pawar,ishaan.pawar220@example.com,+918290359719,1988-10-07,Jaipur,Rajasthan,Mass Affluent,Retired,LOW,VERIFIED,BR013,2022-07-31,2026-09-08 04:38:00,INSERT,2026-08-01 12:39:00
+C000221,Diya,Chavan,diya.chavan221@example.com,+918615145225,1985-02-22,Delhi,Delhi,Preferred,Professional,LOW,PENDING,BR007,2025-08-22,2026-08-16 11:07:00,INSERT,2026-08-01 12:40:00
+C000222,Rahul,Iyer,rahul.iyer222@example.com,+918982652348,1978-10-22,Jaipur,Rajasthan,Mass,Business Owner,MEDIUM,VERIFIED,BR014,2026-07-19,2026-09-05 00:55:00,INSERT,2026-08-01 12:41:00
+C000223,Nikhil,Deshmukh,nikhil.deshmukh223@example.com,+918085259583,1973-10-29,Jaipur,Rajasthan,Mass Affluent,Professional,LOW,EXPIRED,BR016,2025-07-12,2026-08-20 08:15:00,INSERT,2026-08-01 12:42:00
+C000224,Kiran,Singh,kiran.singh224@example.com,+919334938378,1963-04-19,Ahmedabad,Gujarat,Preferred,Business Owner,MEDIUM,VERIFIED,BR020,2026-02-26,2026-09-14 14:16:00,INSERT,2026-08-01 12:43:00
+C000225,Yash,Kulkarni,yash.kulkarni225@example.com,+919854838525,1991-11-06,Pune,Maharashtra,Mass,Student,LOW,EXPIRED,BR013,2022-09-20,2026-08-16 22:26:00,INSERT,2026-08-01 12:44:00
+C000226,Tanvi,Pawar,tanvi.pawar226@example.com,+918111272861,1979-12-01,Pune,Maharashtra,Mass Affluent,Student,LOW,VERIFIED,BR008,2023-12-31,2026-08-01 03:21:00,INSERT,2026-08-01 12:45:00
+C000227,Kavya,Jadhav,kavya.jadhav227@example.com,+919965405644,2004-11-24,Hyderabad,Telangana,Mass,Salaried,LOW,VERIFIED,BR003,2020-04-20,2026-09-13 20:05:00,INSERT,2026-08-01 12:46:00
+C000228,Varun,Deshmukh,varun.deshmukh228@example.com,+918955638763,1978-07-23,Thane,Maharashtra,Mass Affluent,Business Owner,LOW,VERIFIED,BR015,2022-07-30,2026-08-20 11:42:00,INSERT,2026-08-01 12:47:00
+C000229,Akash,Shah,akash.shah229@example.com,+917097002315,1990-10-11,Mumbai,Maharashtra,Mass Affluent,Retired,MEDIUM,PENDING,BR008,2024-10-14,2026-09-15 03:55:00,INSERT,2026-08-01 12:48:00
+C000230,Arjun,Singh,arjun.singh230@example.com,+918831242551,2001-06-14,Nagpur,Maharashtra,Mass,Professional,LOW,VERIFIED,BR014,2023-06-09,2026-08-22 19:06:00,INSERT,2026-08-01 12:49:00
+C000231,Aarav,Naik,aarav.naik231@example.com,+918844915411,1994-11-19,Nashik,Maharashtra,Mass,Self Employed,LOW,VERIFIED,BR003,2025-06-22,2026-08-29 20:12:00,INSERT,2026-08-01 12:50:00
+C000232,Aman,Singh,aman.singh232@example.com,+917846427583,2001-01-18,Nagpur,Maharashtra,Mass,Retired,MEDIUM,VERIFIED,BR011,2025-09-11,2026-08-24 11:07:00,INSERT,2026-08-01 12:51:00
+C000233,Kiran,Naik,kiran.naik233@example.com,+918494324956,1991-07-30,Bengaluru,Karnataka,Preferred,Student,LOW,VERIFIED,BR010,2025-11-21,2026-09-07 03:53:00,INSERT,2026-08-01 12:52:00
+C000234,Riya,Kulkarni,riya.kulkarni234@example.com,+917506211965,1981-05-27,Jaipur,Rajasthan,Mass,Self Employed,LOW,VERIFIED,BR013,2023-09-10,2026-08-09 10:41:00,INSERT,2026-08-01 12:53:00
+C000235,Rohan,Deshmukh,rohan.deshmukh235@example.com,+917797806061,2003-08-30,Delhi,Delhi,Mass Affluent,Retired,MEDIUM,PENDING,BR006,2025-03-22,2026-08-25 14:26:00,INSERT,2026-08-01 12:54:00
+C000236,Arjun,Chavan,arjun.chavan236@example.com,+918351110867,2000-06-17,Solapur,Maharashtra,Mass Affluent,Business Owner,HIGH,VERIFIED,BR007,2023-04-22,2026-08-09 06:23:00,INSERT,2026-08-01 12:55:00
+C000237,Rahul,Bhosale,rahul.bhosale237@example.com,+919940749808,2004-02-11,Jaipur,Rajasthan,Mass,Professional,LOW,VERIFIED,BR001,2021-06-22,2026-09-01 13:57:00,INSERT,2026-08-01 12:56:00
+C000238,Diya,Patil,diya.patil238@example.com,+918239829538,1975-02-02,Solapur,Maharashtra,Preferred,Student,MEDIUM,VERIFIED,BR018,2024-09-23,2026-08-15 18:21:00,INSERT,2026-08-01 12:57:00
+C000239,Aman,Khan,aman.khan239@example.com,+918575659319,2008-08-17,Pune,Maharashtra,Preferred,Salaried,MEDIUM,VERIFIED,BR007,2023-10-08,2026-08-18 18:32:00,INSERT,2026-08-01 12:58:00
+C000240,Aman,Nair,aman.nair240@example.com,+918128782794,1991-04-10,Solapur,Maharashtra,Preferred,Salaried,LOW,EXPIRED,BR008,2021-05-09,2026-08-03 15:21:00,INSERT,2026-08-01 12:59:00
+C000241,Tanvi,Khan,tanvi.khan241@example.com,+919717729159,1998-05-31,Indore,Madhya Pradesh,Mass,Self Employed,MEDIUM,VERIFIED,BR002,2025-05-24,2026-08-23 20:49:00,INSERT,2026-08-01 13:00:00
+C000242,Kavya,Singh,kavya.singh242@example.com,+917723175276,1989-01-13,Solapur,Maharashtra,Private,Business Owner,LOW,VERIFIED,BR017,2026-08-14,2026-09-08 18:23:00,INSERT,2026-08-01 13:01:00
+C000243,Varun,Joshi,varun.joshi243@example.com,+918191095508,1971-05-20,Nagpur,Maharashtra,Mass Affluent,Self Employed,LOW,VERIFIED,BR008,2026-08-01,2026-08-27 02:01:00,INSERT,2026-08-01 13:02:00
+C000244,Kiran,Chavan,kiran.chavan244@example.com,+918154131362,1997-02-28,Nagpur,Maharashtra,Mass,Salaried,LOW,VERIFIED,BR003,2023-07-09,2026-09-06 21:35:00,INSERT,2026-08-01 13:03:00
+C000245,Pooja,Reddy,pooja.reddy245@example.com,+919096135091,1989-05-12,Indore,Madhya Pradesh,Mass Affluent,Retired,LOW,EXPIRED,BR012,2019-09-17,2026-08-24 15:31:00,INSERT,2026-08-01 13:04:00
+C000246,Tanvi,Singh,tanvi.singh246@example.com,+917909895115,2004-05-19,Bengaluru,Karnataka,Mass,Business Owner,LOW,VERIFIED,BR019,2024-06-10,2026-08-14 14:39:00,INSERT,2026-08-01 13:05:00
+C000247,Tanvi,Gupta,tanvi.gupta247@example.com,+917427670241,2001-03-25,Jaipur,Rajasthan,Mass,Self Employed,LOW,VERIFIED,BR014,2021-04-08,2026-08-04 01:34:00,INSERT,2026-08-01 13:06:00
+C000248,Shreya,Deshmukh,shreya.deshmukh248@example.com,+918176904638,1968-05-16,Jaipur,Rajasthan,Mass Affluent,Business Owner,LOW,VERIFIED,BR006,2019-08-01,2026-08-20 05:25:00,INSERT,2026-08-01 13:07:00
+C000249,Kiran,Shah,kiran.shah249@example.com,+918843532841,1968-03-07,Indore,Madhya Pradesh,Mass Affluent,Salaried,LOW,VERIFIED,BR019,2021-07-15,2026-09-14 07:59:00,INSERT,2026-08-01 13:08:00
+C000250,Pooja,More,pooja.more250@example.com,+918475639733,1970-10-26,Mumbai,Maharashtra,Private,Professional,MEDIUM,VERIFIED,BR008,2023-04-19,2026-08-01 23:44:00,INSERT,2026-08-01 13:09:00
+C000251,Akash,Joshi,akash.joshi251@example.com,+918285291868,1972-04-20,Pune,Maharashtra,Mass,Self Employed,LOW,VERIFIED,BR003,2024-12-12,2026-08-21 12:32:00,INSERT,2026-08-01 13:10:00
+C000252,Riya,Sharma,riya.sharma252@example.com,+918890212621,1991-07-04,Delhi,Delhi,Mass Affluent,Retired,MEDIUM,PENDING,BR020,2023-12-18,2026-09-11 05:36:00,INSERT,2026-08-01 13:11:00
+C000253,Vikas,Mehta,vikas.mehta253@example.com,+917528956230,1994-06-14,Pune,Maharashtra,Mass,Professional,LOW,VERIFIED,BR009,2026-03-25,2026-08-07 04:46:00,INSERT,2026-08-01 13:12:00
+C000254,Akash,Nair,akash.nair254@example.com,+919609592494,1985-07-24,Ahmedabad,Gujarat,Preferred,Retired,LOW,VERIFIED,BR010,2021-04-21,2026-09-08 20:28:00,INSERT,2026-08-01 13:13:00
+C000255,Pooja,Naik,pooja.naik255@example.com,+918269343434,1964-11-23,Ahmedabad,Gujarat,Preferred,Self Employed,LOW,VERIFIED,BR016,2026-02-26,2026-08-13 13:22:00,INSERT,2026-08-01 13:14:00
+C000256,Rohan,Kulkarni,rohan.kulkarni256@example.com,+918359239702,1971-11-03,Ahmedabad,Gujarat,Mass,Student,LOW,VERIFIED,BR006,2024-04-13,2026-08-01 12:19:00,INSERT,2026-08-01 13:15:00
+C000257,Suresh,Kulkarni,suresh.kulkarni257@example.com,+917059242317,1983-07-10,Mumbai,Maharashtra,Mass,Salaried,MEDIUM,VERIFIED,BR010,2026-01-18,2026-09-07 02:18:00,INSERT,2026-08-01 13:16:00
+C000258,Shreya,Bhosale,shreya.bhosale258@example.com,+918727768349,1967-05-24,Chennai,Tamil Nadu,Mass Affluent,Student,LOW,VERIFIED,BR010,2019-11-20,2026-08-27 14:27:00,INSERT,2026-08-01 13:17:00
+C000259,Pooja,Mehta,pooja.mehta259@example.com,+918403381840,1995-01-20,Chennai,Tamil Nadu,Mass Affluent,Retired,MEDIUM,VERIFIED,BR014,2021-09-04,2026-08-10 18:18:00,INSERT,2026-08-01 13:18:00
+C000260,Aditi,Nair,aditi.nair260@example.com,+918947217245,1964-12-08,Pune,Maharashtra,Mass,Retired,MEDIUM,VERIFIED,BR001,2020-07-16,2026-08-28 03:57:00,INSERT,2026-08-01 13:19:00
+C000261,Shreya,Sharma,shreya.sharma261@example.com,+919246290917,2006-05-27,Nagpur,Maharashtra,Preferred,Retired,LOW,VERIFIED,BR009,2020-04-28,2026-09-01 11:50:00,INSERT,2026-08-01 13:20:00
+C000262,Suresh,Sharma,suresh.sharma262@example.com,+919249936731,1965-09-23,Thane,Maharashtra,Mass,Student,LOW,VERIFIED,BR017,2023-01-15,2026-08-28 09:17:00,INSERT,2026-08-01 13:21:00
+C000263,Aditi,Chavan,aditi.chavan263@example.com,+917675641216,1982-11-20,Delhi,Delhi,Preferred,Student,MEDIUM,VERIFIED,BR017,2019-01-11,2026-08-11 12:33:00,INSERT,2026-08-01 13:22:00
+C000264,Aditi,Sharma,aditi.sharma264@example.com,+918563267151,1994-05-11,Nashik,Maharashtra,Preferred,Self Employed,MEDIUM,VERIFIED,BR018,2026-05-09,2026-08-03 16:06:00,INSERT,2026-08-01 13:23:00
+C000265,Meera,Nair,meera.nair265@example.com,+918374110948,1984-05-02,Thane,Maharashtra,Preferred,Student,LOW,VERIFIED,BR002,2021-01-04,2026-08-16 14:12:00,INSERT,2026-08-01 13:24:00
+C000266,Chetan,Bhosale,chetan.bhosale266@example.com,+918997564262,1985-04-29,Mumbai,Maharashtra,Preferred,Business Owner,LOW,VERIFIED,BR001,2023-02-20,2026-08-26 02:21:00,INSERT,2026-08-01 13:25:00
+C000267,Bhavna,Shah,bhavna.shah267@example.com,+918041890333,2001-08-14,Delhi,Delhi,Mass,Professional,HIGH,VERIFIED,BR018,2021-10-01,2026-08-20 21:15:00,INSERT,2026-08-01 13:26:00
+C000268,Ananya,Sharma,ananya.sharma268@example.com,+919325918921,1991-01-29,Bengaluru,Karnataka,Mass Affluent,Retired,MEDIUM,PENDING,BR001,2026-05-16,2026-08-02 07:57:00,INSERT,2026-08-01 13:27:00
+C000269,Kiran,Shah,kiran.shah269@example.com,+918022922016,1997-08-30,Pune,Maharashtra,Mass Affluent,Salaried,HIGH,VERIFIED,BR009,2020-01-17,2026-08-14 18:05:00,INSERT,2026-08-01 13:28:00
+C000270,Aditi,Nair,aditi.nair270@example.com,+918599840853,2001-02-16,Ahmedabad,Gujarat,Private,Salaried,LOW,VERIFIED,BR013,2019-11-03,2026-08-27 23:55:00,INSERT,2026-08-01 13:29:00
+C000271,Riya,Khan,riya.khan271@example.com,+917561387824,1981-03-29,Mumbai,Maharashtra,Mass,Business Owner,MEDIUM,VERIFIED,BR011,2022-07-26,2026-08-28 22:36:00,INSERT,2026-08-01 13:30:00
+C000272,Neha,Reddy,neha.reddy272@example.com,+917584595923,1969-10-10,Nashik,Maharashtra,Mass,Self Employed,LOW,VERIFIED,BR004,2025-01-04,2026-08-05 06:55:00,INSERT,2026-08-01 13:31:00
+C000273,Kavya,Mehta,kavya.mehta273@example.com,+918138200363,1970-10-04,Hyderabad,Telangana,Mass,Retired,LOW,VERIFIED,BR020,2019-06-15,2026-08-20 15:48:00,INSERT,2026-08-01 13:32:00
+C000274,Bhavna,Gupta,bhavna.gupta274@example.com,+918527903519,1995-07-20,Nagpur,Maharashtra,Mass Affluent,Retired,LOW,VERIFIED,BR006,2019-05-08,2026-08-06 08:28:00,INSERT,2026-08-01 13:33:00
+C000275,Kiran,More,kiran.more275@example.com,+917406841968,2001-06-14,Ahmedabad,Gujarat,Mass,Self Employed,LOW,VERIFIED,BR008,2020-06-19,2026-09-05 08:31:00,INSERT,2026-08-01 13:34:00
+C000276,Bhavna,Jadhav,bhavna.jadhav276@example.com,+919768901084,1967-07-16,Thane,Maharashtra,Mass Affluent,Business Owner,MEDIUM,VERIFIED,BR003,2021-03-20,2026-09-13 21:30:00,INSERT,2026-08-01 13:35:00
+C000277,Vivek,More,vivek.more277@example.com,+918423995953,1970-12-28,Chennai,Tamil Nadu,Mass,Professional,LOW,PENDING,BR014,2023-06-06,2026-08-09 03:08:00,INSERT,2026-08-01 13:36:00
+C000278,Nikhil,Sharma,nikhil.sharma278@example.com,+917742201314,1991-10-03,Bengaluru,Karnataka,Mass,Self Employed,LOW,VERIFIED,BR005,2019-05-22,2026-09-13 14:33:00,INSERT,2026-08-01 13:37:00
+C000279,Rohan,Naik,rohan.naik279@example.com,+918267467039,2004-10-03,Delhi,Delhi,Mass,Student,LOW,VERIFIED,BR013,2020-07-16,2026-08-16 22:05:00,INSERT,2026-08-01 13:38:00
+C000280,Meera,Mehta,meera.mehta280@example.com,+919709069459,2008-10-09,Jaipur,Rajasthan,Preferred,Professional,MEDIUM,VERIFIED,BR018,2024-06-08,2026-09-03 08:30:00,INSERT,2026-08-01 13:39:00
+C000281,Kavya,Khan,kavya.khan281@example.com,+918161512446,1976-02-18,Ahmedabad,Gujarat,Mass,Student,LOW,VERIFIED,BR009,2019-08-28,2026-08-21 13:15:00,INSERT,2026-08-01 13:40:00
+C000282,Tanvi,Chavan,tanvi.chavan282@example.com,+917999705716,1974-04-27,Ahmedabad,Gujarat,Mass,Retired,LOW,VERIFIED,BR002,2021-06-17,2026-08-23 19:56:00,INSERT,2026-08-01 13:41:00
+C000283,Riya,Jadhav,riya.jadhav283@example.com,+918015979384,1988-07-12,Thane,Maharashtra,Preferred,Retired,LOW,VERIFIED,BR012,2025-05-14,2026-08-12 06:00:00,INSERT,2026-08-01 13:42:00
+C000284,Riya,Deshmukh,riya.deshmukh284@example.com,+919328407443,1987-09-23,Delhi,Delhi,Mass,Salaried,LOW,VERIFIED,BR008,2019-03-23,2026-08-13 16:48:00,INSERT,2026-08-01 13:43:00
+C000285,Pooja,Chavan,pooja.chavan285@example.com,+917865282924,1971-09-15,Mumbai,Maharashtra,Mass,Self Employed,MEDIUM,VERIFIED,BR011,2019-09-01,2026-08-22 20:57:00,INSERT,2026-08-01 13:44:00
+C000286,Aarav,Deshmukh,aarav.deshmukh286@example.com,+917476400290,2007-03-20,Delhi,Delhi,Preferred,Salaried,LOW,PENDING,BR013,2025-07-28,2026-09-15 04:50:00,INSERT,2026-08-01 13:45:00
+C000287,Aman,Gupta,aman.gupta287@example.com,+917676474018,1999-03-12,Solapur,Maharashtra,Preferred,Professional,LOW,VERIFIED,BR018,2025-11-18,2026-08-21 04:39:00,INSERT,2026-08-01 13:46:00
+C000288,Tanvi,Verma,tanvi.verma288@example.com,+917753129506,1993-12-11,Nashik,Maharashtra,Mass,Retired,LOW,VERIFIED,BR001,2025-06-04,2026-09-12 20:06:00,INSERT,2026-08-01 13:47:00
+C000289,Kiran,Khan,kiran.khan289@example.com,+918366731217,1979-10-26,Mumbai,Maharashtra,Mass Affluent,Salaried,MEDIUM,VERIFIED,BR003,2021-09-01,2026-08-12 20:33:00,INSERT,2026-08-01 13:48:00
+C000290,Kavya,Gupta,kavya.gupta290@example.com,+919877733629,1990-02-13,Nagpur,Maharashtra,Mass,Business Owner,LOW,VERIFIED,BR012,2021-11-17,2026-09-10 03:01:00,INSERT,2026-08-01 13:49:00
+C000291,Tanvi,Joshi,tanvi.joshi291@example.com,+918657587204,1999-04-25,Indore,Madhya Pradesh,Mass Affluent,Self Employed,MEDIUM,VERIFIED,BR013,2022-12-09,2026-08-01 01:38:00,INSERT,2026-08-01 13:50:00
+C000292,Rahul,Jadhav,rahul.jadhav292@example.com,+919795892991,1980-03-27,Pune,Maharashtra,Mass,Salaried,MEDIUM,VERIFIED,BR001,2022-07-29,2026-08-31 19:43:00,INSERT,2026-08-01 13:51:00
+C000293,Deepak,Joshi,deepak.joshi293@example.com,+918612579345,1974-06-08,Pune,Maharashtra,Mass Affluent,Student,MEDIUM,EXPIRED,BR011,2025-08-30,2026-08-22 05:48:00,INSERT,2026-08-01 13:52:00
+C000294,Rohan,Chavan,rohan.chavan294@example.com,+919807341727,1974-10-20,Indore,Madhya Pradesh,Mass Affluent,Professional,LOW,VERIFIED,BR007,2021-02-17,2026-08-02 14:43:00,INSERT,2026-08-01 13:53:00
+C000295,Meera,Singh,meera.singh295@example.com,+919837246354,1985-04-03,Indore,Madhya Pradesh,Mass,Salaried,LOW,VERIFIED,BR016,2020-09-21,2026-09-04 09:03:00,INSERT,2026-08-01 13:54:00
+C000296,Aditi,Verma,aditi.verma296@example.com,+918265080225,2003-02-03,Mumbai,Maharashtra,Mass,Salaried,LOW,VERIFIED,BR003,2024-04-23,2026-08-28 02:59:00,INSERT,2026-08-01 13:55:00
+C000297,Vikas,Joshi,vikas.joshi297@example.com,+919100654796,1983-10-10,Solapur,Maharashtra,Mass,Student,LOW,VERIFIED,BR013,2023-02-22,2026-08-26 16:04:00,INSERT,2026-08-01 13:56:00
+C000298,Arjun,More,arjun.more298@example.com,+918997408731,1983-08-19,Mumbai,Maharashtra,Mass,Business Owner,LOW,VERIFIED,BR004,2019-12-18,2026-08-17 15:00:00,INSERT,2026-08-01 13:57:00
+C000299,Sanjay,Verma,sanjay.verma299@example.com,+919532855799,1980-05-30,Chennai,Tamil Nadu,Mass Affluent,Professional,MEDIUM,VERIFIED,BR018,2024-04-28,2026-09-04 14:07:00,INSERT,2026-08-01 13:58:00
+C000300,Riya,Nair,riya.nair300@example.com,+918695671834,1963-02-11,Hyderabad,Telangana,Mass Affluent,Student,MEDIUM,VERIFIED,BR020,2020-08-26,2026-08-20 02:41:00,INSERT,2026-08-01 13:59:00
+C000301,Aman,More,aman.more301@example.com,+917827752234,1971-04-27,Nagpur,Maharashtra,Mass,Salaried,HIGH,VERIFIED,BR005,2025-09-03,2026-08-11 07:13:00,INSERT,2026-08-01 14:00:00
+C000302,Deepak,Gupta,deepak.gupta302@example.com,+918666873181,1995-08-25,Indore,Madhya Pradesh,Mass Affluent,Business Owner,LOW,PENDING,BR001,2025-12-27,2026-08-05 02:58:00,INSERT,2026-08-01 14:01:00
+C000303,Riya,Bhosale,riya.bhosale303@example.com,+918780016559,1973-06-04,Chennai,Tamil Nadu,Mass,Student,LOW,PENDING,BR004,2020-03-08,2026-08-27 03:50:00,INSERT,2026-08-01 14:02:00
+C000304,Riya,Joshi,riya.joshi304@example.com,+918476906868,1996-11-11,Chennai,Tamil Nadu,Mass,Retired,LOW,VERIFIED,BR002,2020-12-06,2026-08-19 18:16:00,INSERT,2026-08-01 14:03:00
+C000305,Deepak,Jadhav,deepak.jadhav305@example.com,+919924068985,1996-01-15,Nagpur,Maharashtra,Mass,Business Owner,MEDIUM,VERIFIED,BR016,2022-01-05,2026-09-09 20:46:00,INSERT,2026-08-01 14:04:00
+C000306,Vivek,Verma,vivek.verma306@example.com,+918335517080,1985-02-24,Mumbai,Maharashtra,Preferred,Retired,MEDIUM,EXPIRED,BR008,2020-07-04,2026-08-22 10:20:00,INSERT,2026-08-01 14:05:00
+C000307,Diya,More,diya.more307@example.com,+918790025237,1968-01-04,Chennai,Tamil Nadu,Mass,Self Employed,MEDIUM,VERIFIED,BR016,2024-10-16,2026-08-21 09:11:00,INSERT,2026-08-01 14:06:00
+C000308,Vikas,Verma,vikas.verma308@example.com,+917281822724,1987-11-29,Mumbai,Maharashtra,Mass Affluent,Professional,LOW,VERIFIED,BR019,2019-04-29,2026-09-02 05:25:00,INSERT,2026-08-01 14:07:00
+C000309,Arjun,Mehta,arjun.mehta309@example.com,+917142039044,2000-12-12,Nashik,Maharashtra,Mass,Business Owner,MEDIUM,VERIFIED,BR015,2024-08-30,2026-08-04 08:30:00,INSERT,2026-08-01 14:08:00
+C000310,Kiran,Joshi,kiran.joshi310@example.com,+918599732557,2003-11-07,Jaipur,Rajasthan,Mass Affluent,Self Employed,HIGH,VERIFIED,BR018,2022-12-03,2026-08-02 08:15:00,INSERT,2026-08-01 14:09:00
+C000311,Kavya,Iyer,kavya.iyer311@example.com,+918224363672,1962-06-18,Solapur,Maharashtra,Mass,Self Employed,MEDIUM,VERIFIED,BR007,2021-06-25,2026-09-14 03:05:00,INSERT,2026-08-01 14:10:00
+C000312,Sakshi,Nair,sakshi.nair312@example.com,+919798546298,1996-09-26,Jaipur,Rajasthan,Mass Affluent,Retired,LOW,PENDING,BR006,2025-09-28,2026-08-14 09:11:00,INSERT,2026-08-01 14:11:00
+C000313,Tanvi,Sharma,tanvi.sharma313@example.com,+918311939403,1984-09-14,Nashik,Maharashtra,Mass,Professional,MEDIUM,VERIFIED,BR007,2024-03-26,2026-08-17 20:45:00,INSERT,2026-08-01 14:12:00
+C000314,Diya,Bhosale,diya.bhosale314@example.com,+917439427140,1960-08-28,Delhi,Delhi,Mass Affluent,Retired,HIGH,VERIFIED,BR018,2026-04-05,2026-08-26 19:57:00,INSERT,2026-08-01 14:13:00
+C000315,Rohan,Naik,rohan.naik315@example.com,+917464305421,2003-03-21,Solapur,Maharashtra,Mass,Business Owner,LOW,VERIFIED,BR009,2026-05-11,2026-08-20 23:21:00,INSERT,2026-08-01 14:14:00
+C000316,Shreya,Shah,shreya.shah316@example.com,+918032089545,1965-02-03,Nashik,Maharashtra,Preferred,Student,LOW,VERIFIED,BR005,2019-04-15,2026-08-10 17:39:00,INSERT,2026-08-01 14:15:00
+C000317,Sakshi,Chavan,sakshi.chavan317@example.com,+918737739017,1994-10-31,Solapur,Maharashtra,Mass Affluent,Student,MEDIUM,VERIFIED,BR007,2022-11-06,2026-08-17 14:17:00,INSERT,2026-08-01 14:16:00
+C000318,Sneha,Nair,sneha.nair318@example.com,+919043267129,1992-02-29,Jaipur,Rajasthan,Mass Affluent,Self Employed,MEDIUM,VERIFIED,BR006,2022-04-18,2026-09-04 21:47:00,INSERT,2026-08-01 14:17:00
+C000319,Aman,Chavan,aman.chavan319@example.com,+917786272577,1990-02-10,Nagpur,Maharashtra,Mass Affluent,Self Employed,LOW,VERIFIED,BR010,2023-09-19,2026-08-17 19:04:00,INSERT,2026-08-01 14:18:00
+C000320,Tanvi,Gupta,tanvi.gupta320@example.com,+918262939955,2001-08-09,Thane,Maharashtra,Preferred,Professional,LOW,VERIFIED,BR019,2025-12-17,2026-08-17 19:59:00,INSERT,2026-08-01 14:19:00
+C000321,Akash,Chavan,akash.chavan321@example.com,+919923574632,1994-03-29,Nashik,Maharashtra,Mass Affluent,Professional,LOW,VERIFIED,BR005,2021-03-31,2026-09-02 04:05:00,INSERT,2026-08-01 14:20:00
+C000322,Ishaan,Pawar,ishaan.pawar322@example.com,+918358856601,1976-03-06,Delhi,Delhi,Preferred,Professional,LOW,EXPIRED,BR011,2026-02-11,2026-08-30 04:53:00,INSERT,2026-08-01 14:21:00
+C000323,Aditi,Sharma,aditi.sharma323@example.com,+917724156214,1974-03-19,Hyderabad,Telangana,Mass Affluent,Salaried,LOW,VERIFIED,BR014,2023-07-11,2026-08-18 07:08:00,INSERT,2026-08-01 14:22:00
+C000324,Meera,Chavan,meera.chavan324@example.com,+919292578829,1977-11-21,Bengaluru,Karnataka,Mass Affluent,Salaried,MEDIUM,VERIFIED,BR017,2021-02-19,2026-08-01 01:17:00,INSERT,2026-08-01 14:23:00
+C000325,Aarav,Sharma,aarav.sharma325@example.com,+919978666109,1990-11-22,Jaipur,Rajasthan,Mass,Salaried,LOW,VERIFIED,BR006,2019-09-25,2026-08-16 07:43:00,INSERT,2026-08-01 14:24:00
+C000326,Varun,Patil,varun.patil326@example.com,+919234621711,2007-01-08,Solapur,Maharashtra,Mass,Retired,HIGH,VERIFIED,BR016,2023-01-11,2026-08-19 15:33:00,INSERT,2026-08-01 14:25:00
+C000327,Suresh,Mehta,suresh.mehta327@example.com,+917981049082,1980-02-15,Nagpur,Maharashtra,Mass Affluent,Self Employed,LOW,VERIFIED,BR017,2020-11-23,2026-08-26 00:39:00,INSERT,2026-08-01 14:26:00
+C000328,Aman,Verma,aman.verma328@example.com,+918611439217,1982-12-12,Indore,Madhya Pradesh,Preferred,Student,LOW,EXPIRED,BR004,2026-05-01,2026-09-11 01:16:00,INSERT,2026-08-01 14:27:00
+C000329,Varun,Sharma,varun.sharma329@example.com,+918790037430,1999-11-11,Mumbai,Maharashtra,Mass,Student,LOW,VERIFIED,BR007,2026-01-25,2026-09-14 03:57:00,INSERT,2026-08-01 14:28:00
+C000330,Aarav,Shah,aarav.shah330@example.com,+919845342687,2006-09-05,Bengaluru,Karnataka,Mass,Student,MEDIUM,VERIFIED,BR004,2024-09-26,2026-09-12 03:26:00,INSERT,2026-08-01 14:29:00
+C000331,Sneha,Naik,sneha.naik331@example.com,+917456399159,2004-08-26,Pune,Maharashtra,Mass,Self Employed,MEDIUM,VERIFIED,BR007,2023-01-06,2026-08-19 03:53:00,INSERT,2026-08-01 14:30:00
+C000332,Shreya,Pawar,shreya.pawar332@example.com,+919354238065,2004-07-12,Solapur,Maharashtra,Preferred,Retired,MEDIUM,VERIFIED,BR001,2019-02-22,2026-08-11 01:20:00,INSERT,2026-08-01 14:31:00
+C000333,Sanjay,Kulkarni,sanjay.kulkarni333@example.com,+919122160665,1973-05-19,Pune,Maharashtra,Preferred,Student,LOW,VERIFIED,BR009,2026-03-24,2026-09-06 22:50:00,INSERT,2026-08-01 14:32:00
+C000334,Chetan,More,chetan.more334@example.com,+917215092803,1968-12-14,Solapur,Maharashtra,Preferred,Salaried,MEDIUM,VERIFIED,BR011,2023-10-11,2026-08-17 15:50:00,INSERT,2026-08-01 14:33:00
+C000335,Sneha,Joshi,sneha.joshi335@example.com,+917594399606,1975-04-19,Pune,Maharashtra,Mass,Professional,HIGH,VERIFIED,BR003,2023-03-07,2026-08-03 00:19:00,INSERT,2026-08-01 14:34:00
+C000336,Varun,Gupta,varun.gupta336@example.com,+918719061621,2000-12-15,Nagpur,Maharashtra,Mass,Professional,MEDIUM,VERIFIED,BR014,2026-04-11,2026-08-08 13:40:00,INSERT,2026-08-01 14:35:00
+C000337,Vivek,Iyer,vivek.iyer337@example.com,+917251884343,1974-04-20,Pune,Maharashtra,Mass,Student,LOW,VERIFIED,BR015,2021-01-12,2026-08-09 23:45:00,INSERT,2026-08-01 14:36:00
+C000338,Rohan,Jadhav,rohan.jadhav338@example.com,+917123764767,1971-09-21,Chennai,Tamil Nadu,Mass Affluent,Professional,LOW,VERIFIED,BR002,2019-09-17,2026-08-23 20:52:00,INSERT,2026-08-01 14:37:00
+C000339,Deepak,Gupta,deepak.gupta339@example.com,+919254075750,1980-02-04,Mumbai,Maharashtra,Private,Retired,MEDIUM,VERIFIED,BR020,2020-01-26,2026-09-15 23:08:00,INSERT,2026-08-01 14:38:00
+C000340,Meera,Nair,meera.nair340@example.com,+919904667340,1994-07-12,Hyderabad,Telangana,Mass,Student,MEDIUM,VERIFIED,BR001,2026-03-20,2026-08-23 22:39:00,INSERT,2026-08-01 14:39:00
+C000341,Yash,Iyer,yash.iyer341@example.com,+917710404224,1966-09-19,Ahmedabad,Gujarat,Preferred,Business Owner,LOW,EXPIRED,BR002,2024-09-07,2026-08-31 16:55:00,INSERT,2026-08-01 14:40:00
+C000342,Chetan,Singh,chetan.singh342@example.com,+918009317340,1967-01-27,Jaipur,Rajasthan,Mass Affluent,Student,LOW,VERIFIED,BR015,2022-07-18,2026-08-25 13:45:00,INSERT,2026-08-01 14:41:00
+C000343,Aman,Chavan,aman.chavan343@example.com,+917440849718,1996-03-11,Indore,Madhya Pradesh,Mass,Student,LOW,VERIFIED,BR020,2025-12-10,2026-09-11 00:36:00,INSERT,2026-08-01 14:42:00
+C000344,Sakshi,Shah,sakshi.shah344@example.com,+919811468334,2000-12-05,Ahmedabad,Gujarat,Private,Business Owner,MEDIUM,VERIFIED,BR015,2022-09-21,2026-09-05 07:03:00,INSERT,2026-08-01 14:43:00
+C000345,Rahul,Naik,rahul.naik345@example.com,+918560338203,2000-08-06,Delhi,Delhi,Mass,Retired,LOW,VERIFIED,BR010,2025-02-21,2026-08-31 22:25:00,INSERT,2026-08-01 14:44:00
+C000346,Pooja,Verma,pooja.verma346@example.com,+917705041929,2004-03-05,Indore,Madhya Pradesh,Mass,Retired,MEDIUM,VERIFIED,BR009,2025-11-07,2026-08-07 01:33:00,INSERT,2026-08-01 14:45:00
+C000347,Bhavna,Mehta,bhavna.mehta347@example.com,+918962997637,1977-02-04,Pune,Maharashtra,Mass Affluent,Salaried,MEDIUM,VERIFIED,BR019,2020-05-19,2026-08-26 07:21:00,INSERT,2026-08-01 14:46:00
+C000348,Suresh,More,suresh.more348@example.com,+919165512104,1972-01-29,Hyderabad,Telangana,Private,Salaried,LOW,VERIFIED,BR014,2025-07-24,2026-09-12 20:06:00,INSERT,2026-08-01 14:47:00
+C000349,Nikhil,Bhosale,nikhil.bhosale349@example.com,+919484872186,1975-07-31,Chennai,Tamil Nadu,Mass Affluent,Self Employed,LOW,VERIFIED,BR020,2022-08-11,2026-08-12 23:36:00,INSERT,2026-08-01 14:48:00
+C000350,Pooja,Jadhav,pooja.jadhav350@example.com,+918066177492,1984-07-18,Bengaluru,Karnataka,Mass,Business Owner,HIGH,VERIFIED,BR005,2020-07-19,2026-09-08 23:38:00,INSERT,2026-08-01 14:49:00
+C000351,Meera,Naik,meera.naik351@example.com,+919352808730,1988-02-29,Indore,Madhya Pradesh,Mass Affluent,Student,LOW,VERIFIED,BR020,2022-04-05,2026-09-02 10:12:00,INSERT,2026-08-01 14:50:00
+C000352,Sanjay,Verma,sanjay.verma352@example.com,+917763699730,2005-03-16,Jaipur,Rajasthan,Mass Affluent,Retired,LOW,VERIFIED,BR012,2025-04-22,2026-08-09 22:11:00,INSERT,2026-08-01 14:51:00
+C000353,Nikhil,Khan,nikhil.khan353@example.com,+919895853722,2007-11-24,Delhi,Delhi,Mass,Professional,MEDIUM,VERIFIED,BR001,2023-04-10,2026-09-12 14:14:00,INSERT,2026-08-01 14:52:00
+C000354,Ananya,Patil,ananya.patil354@example.com,+918146662918,1974-06-09,Jaipur,Rajasthan,Private,Retired,LOW,VERIFIED,BR010,2021-04-15,2026-08-04 06:49:00,INSERT,2026-08-01 14:53:00
+C000355,Suresh,Singh,suresh.singh355@example.com,+917440148273,1980-02-15,Mumbai,Maharashtra,Mass Affluent,Student,LOW,VERIFIED,BR010,2026-06-14,2026-08-23 15:26:00,INSERT,2026-08-01 14:54:00
+C000356,Aditi,Jadhav,aditi.jadhav356@example.com,+918342838606,1964-10-28,Bengaluru,Karnataka,Mass,Business Owner,LOW,VERIFIED,BR015,2021-07-12,2026-08-27 23:23:00,INSERT,2026-08-01 14:55:00
+C000357,Yash,Verma,yash.verma357@example.com,+919591527330,1977-08-16,Chennai,Tamil Nadu,Preferred,Self Employed,LOW,VERIFIED,BR003,2021-02-04,2026-09-07 18:39:00,INSERT,2026-08-01 14:56:00
+C000358,Arjun,Bhosale,arjun.bhosale358@example.com,+918840427040,1985-01-14,Pune,Maharashtra,Mass Affluent,Self Employed,LOW,VERIFIED,BR001,2022-09-15,2026-08-25 01:23:00,INSERT,2026-08-01 14:57:00
+C000359,Neha,Deshmukh,neha.deshmukh359@example.com,+919563581525,1964-07-24,Mumbai,Maharashtra,Preferred,Retired,LOW,VERIFIED,BR016,2025-06-03,2026-08-10 11:00:00,INSERT,2026-08-01 14:58:00
+C000360,Rahul,Verma,rahul.verma360@example.com,+919256554634,1979-09-25,Pune,Maharashtra,Private,Student,LOW,VERIFIED,BR014,2025-02-02,2026-09-15 10:50:00,INSERT,2026-08-01 14:59:00
+C000361,Rahul,Jadhav,rahul.jadhav361@example.com,+917916347640,1989-10-10,Pune,Maharashtra,Mass,Business Owner,LOW,VERIFIED,BR017,2024-04-29,2026-08-23 07:33:00,INSERT,2026-08-01 15:00:00
+C000362,Rahul,Sharma,rahul.sharma362@example.com,+918914126243,1981-07-24,Pune,Maharashtra,Preferred,Student,MEDIUM,VERIFIED,BR002,2026-08-27,2026-09-12 11:48:00,INSERT,2026-08-01 15:01:00
+C000363,Vivek,Gupta,vivek.gupta363@example.com,+918102048042,2008-06-19,Bengaluru,Karnataka,Mass Affluent,Salaried,MEDIUM,VERIFIED,BR012,2024-10-07,2026-08-08 13:10:00,INSERT,2026-08-01 15:02:00
+C000364,Tanvi,Bhosale,tanvi.bhosale364@example.com,+918273174184,1977-04-09,Hyderabad,Telangana,Mass,Salaried,MEDIUM,VERIFIED,BR018,2024-12-24,2026-09-01 01:29:00,INSERT,2026-08-01 15:03:00
+C000365,Aarav,Kulkarni,aarav.kulkarni365@example.com,+917915580209,1998-01-21,Nashik,Maharashtra,Preferred,Self Employed,LOW,VERIFIED,BR014,2026-04-02,2026-09-12 21:29:00,INSERT,2026-08-01 15:04:00
+C000366,Varun,Kulkarni,varun.kulkarni366@example.com,+917102018113,2001-03-13,Indore,Madhya Pradesh,Mass Affluent,Salaried,LOW,VERIFIED,BR009,2025-04-04,2026-09-13 05:14:00,INSERT,2026-08-01 15:05:00
+C000367,Akash,Khan,akash.khan367@example.com,+918666587357,2000-06-21,Nashik,Maharashtra,Mass Affluent,Professional,LOW,VERIFIED,BR004,2024-12-30,2026-08-17 13:54:00,INSERT,2026-08-01 15:06:00
+C000368,Aarav,Naik,aarav.naik368@example.com,+917311769311,1992-02-03,Pune,Maharashtra,Preferred,Salaried,LOW,VERIFIED,BR020,2019-12-21,2026-09-07 01:33:00,INSERT,2026-08-01 15:07:00
+C000369,Diya,More,diya.more369@example.com,+917132367258,2002-07-10,Bengaluru,Karnataka,Mass,Self Employed,LOW,VERIFIED,BR018,2022-04-23,2026-08-26 22:33:00,INSERT,2026-08-01 15:08:00
+C000370,Sakshi,Deshmukh,sakshi.deshmukh370@example.com,+918602583329,1960-12-31,Solapur,Maharashtra,Mass Affluent,Student,LOW,VERIFIED,BR019,2025-09-09,2026-09-13 22:06:00,INSERT,2026-08-01 15:09:00
+C000371,Kiran,Singh,kiran.singh371@example.com,+917902170293,1990-11-06,Ahmedabad,Gujarat,Mass,Retired,MEDIUM,VERIFIED,BR006,2021-06-23,2026-08-06 10:24:00,INSERT,2026-08-01 15:10:00
+C000372,Rohan,Reddy,rohan.reddy372@example.com,+919881828165,1964-11-17,Nashik,Maharashtra,Preferred,Student,LOW,VERIFIED,BR010,2026-07-14,2026-08-08 06:11:00,INSERT,2026-08-01 15:11:00
+C000373,Akash,Reddy,akash.reddy373@example.com,+919092466848,1989-09-06,Pune,Maharashtra,Mass,Retired,MEDIUM,VERIFIED,BR020,2019-10-13,2026-08-13 19:49:00,INSERT,2026-08-01 15:12:00
+C000374,Vivek,Mehta,vivek.mehta374@example.com,+918410235649,1987-06-04,Thane,Maharashtra,Mass Affluent,Self Employed,LOW,VERIFIED,BR011,2023-10-21,2026-09-01 15:22:00,INSERT,2026-08-01 15:13:00
+C000375,Arjun,Sharma,arjun.sharma375@example.com,+919752380581,1999-02-15,Thane,Maharashtra,Mass,Business Owner,LOW,VERIFIED,BR016,2024-03-10,2026-08-16 07:33:00,INSERT,2026-08-01 15:14:00
+C000376,Neha,Verma,neha.verma376@example.com,+919369412470,1969-10-06,Chennai,Tamil Nadu,Mass,Student,LOW,VERIFIED,BR005,2025-01-15,2026-08-20 16:37:00,INSERT,2026-08-01 15:15:00
+C000377,Bhavna,Reddy,bhavna.reddy377@example.com,+917323840346,1961-09-02,Indore,Madhya Pradesh,Preferred,Retired,LOW,VERIFIED,BR013,2025-08-13,2026-09-10 02:36:00,INSERT,2026-08-01 15:16:00
+C000378,Bhavna,Patil,bhavna.patil378@example.com,+919317895570,2002-05-09,Ahmedabad,Gujarat,Mass Affluent,Self Employed,LOW,VERIFIED,BR019,2022-04-06,2026-08-17 18:33:00,INSERT,2026-08-01 15:17:00
+C000379,Ananya,More,ananya.more379@example.com,+918704179289,1992-08-23,Ahmedabad,Gujarat,Mass Affluent,Retired,LOW,PENDING,BR020,2020-11-10,2026-09-02 03:05:00,INSERT,2026-08-01 15:18:00
+C000380,Suresh,Bhosale,suresh.bhosale380@example.com,+917769422699,1973-02-11,Nagpur,Maharashtra,Mass Affluent,Professional,MEDIUM,VERIFIED,BR016,2021-08-07,2026-08-29 05:26:00,INSERT,2026-08-01 15:19:00
+C000381,Akash,Reddy,akash.reddy381@example.com,+919871553289,1978-07-20,Thane,Maharashtra,Mass Affluent,Business Owner,LOW,PENDING,BR002,2019-06-13,2026-08-15 01:27:00,INSERT,2026-08-01 15:20:00
+C000382,Sakshi,Gupta,sakshi.gupta382@example.com,+919721149457,1984-07-14,Pune,Maharashtra,Preferred,Business Owner,LOW,VERIFIED,BR013,2026-05-01,2026-09-15 17:47:00,INSERT,2026-08-01 15:21:00
+C000383,Kiran,Verma,kiran.verma383@example.com,+919219050244,1982-07-27,Delhi,Delhi,Mass,Self Employed,LOW,VERIFIED,BR012,2024-06-17,2026-09-11 02:39:00,INSERT,2026-08-01 15:22:00
+C000384,Tanvi,Chavan,tanvi.chavan384@example.com,+917596864325,1999-06-19,Delhi,Delhi,Mass,Salaried,LOW,VERIFIED,BR005,2021-02-04,2026-08-01 17:07:00,INSERT,2026-08-01 15:23:00
+C000385,Arjun,Verma,arjun.verma385@example.com,+919839444315,1980-08-30,Delhi,Delhi,Mass,Business Owner,MEDIUM,VERIFIED,BR016,2024-05-16,2026-09-15 04:02:00,INSERT,2026-08-01 15:24:00
+C000386,Bhavna,Khan,bhavna.khan386@example.com,+917096405016,1981-11-10,Nagpur,Maharashtra,Mass,Student,LOW,VERIFIED,BR017,2019-06-10,2026-09-11 14:01:00,INSERT,2026-08-01 15:25:00
+C000387,Vivek,Khan,vivek.khan387@example.com,+918109216714,1976-02-25,Nagpur,Maharashtra,Mass Affluent,Professional,LOW,VERIFIED,BR001,2026-06-03,2026-08-04 05:40:00,INSERT,2026-08-01 15:26:00
+C000388,Varun,Shah,varun.shah388@example.com,+919605008864,2002-04-17,Pune,Maharashtra,Preferred,Self Employed,LOW,VERIFIED,BR005,2025-07-14,2026-08-14 15:19:00,INSERT,2026-08-01 15:27:00
+C000389,Varun,Iyer,varun.iyer389@example.com,+918136107759,1975-01-17,Delhi,Delhi,Mass Affluent,Business Owner,MEDIUM,VERIFIED,BR003,2021-07-30,2026-09-12 17:26:00,INSERT,2026-08-01 15:28:00
+C000390,Kiran,Jadhav,kiran.jadhav390@example.com,+917869080406,2006-11-23,Nagpur,Maharashtra,Preferred,Student,MEDIUM,VERIFIED,BR020,2020-01-30,2026-08-07 00:33:00,INSERT,2026-08-01 15:29:00
+C000391,Arjun,Chavan,arjun.chavan391@example.com,+919282474254,2005-02-26,Delhi,Delhi,Preferred,Salaried,LOW,VERIFIED,BR020,2025-01-17,2026-09-08 01:19:00,INSERT,2026-08-01 15:30:00
+C000392,Varun,Sharma,varun.sharma392@example.com,+918853264746,2006-11-01,Chennai,Tamil Nadu,Mass,Salaried,MEDIUM,VERIFIED,BR016,2023-04-11,2026-09-13 22:09:00,INSERT,2026-08-01 15:31:00
+C000393,Kavya,Khan,kavya.khan393@example.com,+917419690931,1998-03-04,Chennai,Tamil Nadu,Mass,Professional,MEDIUM,PENDING,BR003,2022-03-06,2026-09-14 19:39:00,INSERT,2026-08-01 15:32:00
+C000394,Rohan,Singh,rohan.singh394@example.com,+917023491105,1960-08-21,Bengaluru,Karnataka,Mass Affluent,Salaried,LOW,VERIFIED,BR007,2022-07-17,2026-08-17 06:27:00,INSERT,2026-08-01 15:33:00
+C000395,Meera,Verma,meera.verma395@example.com,+919798497340,1982-10-03,Pune,Maharashtra,Mass,Student,LOW,VERIFIED,BR009,2026-08-19,2026-08-10 14:32:00,INSERT,2026-08-01 15:34:00
+C000396,Kiran,Mehta,kiran.mehta396@example.com,+919072183247,1976-01-13,Bengaluru,Karnataka,Mass,Student,LOW,EXPIRED,BR019,2022-11-11,2026-09-05 19:01:00,INSERT,2026-08-01 15:35:00
+C000397,Suresh,Jadhav,suresh.jadhav397@example.com,+917511469461,1980-08-12,Indore,Madhya Pradesh,Mass,Retired,MEDIUM,VERIFIED,BR017,2023-06-29,2026-08-09 22:30:00,INSERT,2026-08-01 15:36:00
+C000398,Tanvi,Gupta,tanvi.gupta398@example.com,+919993838759,1964-09-01,Chennai,Tamil Nadu,Mass,Retired,LOW,VERIFIED,BR005,2024-04-15,2026-09-05 20:57:00,INSERT,2026-08-01 15:37:00
+C000399,Yash,Naik,yash.naik399@example.com,+918129971523,1979-11-23,Bengaluru,Karnataka,Mass,Student,LOW,VERIFIED,BR013,2025-11-19,2026-08-06 02:11:00,INSERT,2026-08-01 15:38:00
+C000400,Sakshi,Bhosale,sakshi.bhosale400@example.com,+917246801831,1975-09-22,Solapur,Maharashtra,Mass Affluent,Professional,LOW,VERIFIED,BR017,2022-03-17,2026-09-15 20:23:00,INSERT,2026-08-01 15:39:00
+C000401,Bhavna,Patil,bhavna.patil401@example.com,+919215402672,1980-10-13,Chennai,Tamil Nadu,Mass Affluent,Retired,LOW,VERIFIED,BR001,2020-10-06,2026-09-08 17:25:00,INSERT,2026-08-01 15:40:00
+C000402,Akash,Reddy,akash.reddy402@example.com,+919876176605,1995-06-14,Chennai,Tamil Nadu,Mass,Self Employed,LOW,VERIFIED,BR003,2020-01-05,2026-08-26 12:03:00,INSERT,2026-08-01 15:41:00
+C000403,Rahul,Shah,rahul.shah403@example.com,+918495057700,1991-03-05,Indore,Madhya Pradesh,Private,Business Owner,LOW,PENDING,BR015,2023-07-13,2026-09-05 19:53:00,INSERT,2026-08-01 15:42:00
+C000404,Riya,Sharma,riya.sharma404@example.com,+919174276085,1969-07-20,Solapur,Maharashtra,Mass Affluent,Student,LOW,PENDING,BR017,2021-11-21,2026-08-12 13:53:00,INSERT,2026-08-01 15:43:00
+C000405,Vivek,Singh,vivek.singh405@example.com,+919981531341,1999-09-21,Chennai,Tamil Nadu,Private,Student,LOW,VERIFIED,BR011,2024-02-23,2026-09-06 08:32:00,INSERT,2026-08-01 15:44:00
+C000406,Sanjay,More,sanjay.more406@example.com,+917499368558,1983-02-17,Delhi,Delhi,Mass,Retired,MEDIUM,VERIFIED,BR008,2022-07-17,2026-08-02 16:27:00,INSERT,2026-08-01 15:45:00
+C000407,Meera,Verma,meera.verma407@example.com,+918131078331,1982-04-09,Ahmedabad,Gujarat,Mass,Professional,MEDIUM,VERIFIED,BR003,2025-03-21,2026-09-04 00:19:00,INSERT,2026-08-01 15:46:00
+C000408,Yash,Iyer,yash.iyer408@example.com,+917938734379,1984-02-21,Hyderabad,Telangana,Mass,Retired,MEDIUM,PENDING,BR016,2021-03-28,2026-08-21 12:04:00,INSERT,2026-08-01 15:47:00
+C000409,Chetan,Nair,chetan.nair409@example.com,+917870875721,1982-05-27,Solapur,Maharashtra,Preferred,Business Owner,LOW,VERIFIED,BR003,2026-07-31,2026-08-14 07:49:00,INSERT,2026-08-01 15:48:00
+C000410,Sanjay,Chavan,sanjay.chavan410@example.com,+917181518732,2003-04-08,Delhi,Delhi,Mass,Business Owner,LOW,EXPIRED,BR019,2022-01-30,2026-08-01 18:28:00,INSERT,2026-08-01 15:49:00
+C000411,Nikhil,Iyer,nikhil.iyer411@example.com,+918708879427,1979-12-04,Chennai,Tamil Nadu,Preferred,Self Employed,LOW,VERIFIED,BR016,2025-01-23,2026-09-02 09:33:00,INSERT,2026-08-01 15:50:00
+C000412,Aditi,Bhosale,aditi.bhosale412@example.com,+917750761833,2001-01-06,Thane,Maharashtra,Private,Retired,LOW,VERIFIED,BR001,2019-02-18,2026-08-26 23:25:00,INSERT,2026-08-01 15:51:00
+C000413,Sanjay,Mehta,sanjay.mehta413@example.com,+918397737837,1992-06-09,Bengaluru,Karnataka,Mass Affluent,Business Owner,LOW,VERIFIED,BR009,2024-04-14,2026-09-07 03:26:00,INSERT,2026-08-01 15:52:00
+C000414,Rohan,Gupta,rohan.gupta414@example.com,+918820820806,1978-11-20,Thane,Maharashtra,Mass,Business Owner,LOW,VERIFIED,BR015,2021-01-06,2026-08-12 17:01:00,INSERT,2026-08-01 15:53:00
+C000415,Riya,Deshmukh,riya.deshmukh415@example.com,+917428937279,1984-03-20,Delhi,Delhi,Preferred,Student,LOW,VERIFIED,BR005,2020-09-04,2026-09-13 07:48:00,INSERT,2026-08-01 15:54:00
+C000416,Nikhil,Sharma,nikhil.sharma416@example.com,+917577551466,2006-05-20,Nagpur,Maharashtra,Mass Affluent,Business Owner,MEDIUM,VERIFIED,BR018,2025-05-14,2026-08-27 17:03:00,INSERT,2026-08-01 15:55:00
+C000417,Aditi,Jadhav,aditi.jadhav417@example.com,+917257854279,1979-05-01,Pune,Maharashtra,Preferred,Professional,MEDIUM,VERIFIED,BR011,2021-11-30,2026-09-14 05:34:00,INSERT,2026-08-01 15:56:00
+C000418,Kavya,Verma,kavya.verma418@example.com,+918478071244,1961-10-11,Ahmedabad,Gujarat,Mass,Business Owner,MEDIUM,PENDING,BR007,2025-06-20,2026-09-05 08:47:00,INSERT,2026-08-01 15:57:00
+C000419,Riya,Singh,riya.singh419@example.com,+918396252148,2005-10-17,Nagpur,Maharashtra,Mass Affluent,Retired,LOW,VERIFIED,BR020,2022-03-19,2026-08-19 12:07:00,INSERT,2026-08-01 15:58:00
+C000420,Neha,Deshmukh,neha.deshmukh420@example.com,+918811688007,1996-04-24,Nagpur,Maharashtra,Preferred,Salaried,LOW,VERIFIED,BR011,2022-07-21,2026-09-10 11:30:00,INSERT,2026-08-01 15:59:00
+C000421,Sakshi,Shah,sakshi.shah421@example.com,+919768726167,1995-06-24,Indore,Madhya Pradesh,Mass,Professional,MEDIUM,PENDING,BR019,2024-11-03,2026-08-18 20:39:00,INSERT,2026-08-01 16:00:00
+C000422,Neha,Pawar,neha.pawar422@example.com,+917537042335,1981-01-18,Nagpur,Maharashtra,Mass Affluent,Retired,MEDIUM,VERIFIED,BR006,2023-06-15,2026-08-12 00:47:00,INSERT,2026-08-01 16:01:00
+C000423,Aman,Joshi,aman.joshi423@example.com,+917231178500,1962-05-13,Pune,Maharashtra,Preferred,Student,MEDIUM,VERIFIED,BR009,2025-12-06,2026-08-31 18:43:00,INSERT,2026-08-01 16:02:00
+C000424,Ananya,Kulkarni,ananya.kulkarni424@example.com,+917985076350,1982-03-12,Jaipur,Rajasthan,Mass Affluent,Professional,LOW,VERIFIED,BR006,2019-04-28,2026-08-25 10:33:00,INSERT,2026-08-01 16:03:00
+C000425,Aditi,Verma,aditi.verma425@example.com,+919321791292,1984-06-09,Thane,Maharashtra,Mass Affluent,Self Employed,HIGH,VERIFIED,BR006,2025-08-17,2026-08-31 15:56:00,INSERT,2026-08-01 16:04:00
+C000426,Rohan,More,rohan.more426@example.com,+918868213586,2006-12-17,Jaipur,Rajasthan,Mass Affluent,Student,LOW,VERIFIED,BR018,2021-07-19,2026-09-10 19:15:00,INSERT,2026-08-01 16:05:00
+C000427,Tanvi,Kulkarni,tanvi.kulkarni427@example.com,+918770401882,1983-04-23,Hyderabad,Telangana,Mass,Salaried,LOW,VERIFIED,BR005,2022-11-09,2026-08-20 12:29:00,INSERT,2026-08-01 16:06:00
+C000428,Diya,Chavan,diya.chavan428@example.com,+919112830350,2002-10-19,Ahmedabad,Gujarat,Mass,Professional,MEDIUM,VERIFIED,BR001,2025-02-23,2026-08-01 23:28:00,INSERT,2026-08-01 16:07:00
+C000429,Kavya,Mehta,kavya.mehta429@example.com,+918695447268,1982-06-02,Bengaluru,Karnataka,Mass,Retired,LOW,VERIFIED,BR008,2021-12-13,2026-09-05 14:55:00,INSERT,2026-08-01 16:08:00
+C000430,Akash,Pawar,akash.pawar430@example.com,+919633743591,1984-05-22,Jaipur,Rajasthan,Mass,Retired,LOW,VERIFIED,BR007,2019-10-08,2026-08-16 17:38:00,INSERT,2026-08-01 16:09:00
+C000431,Arjun,Deshmukh,arjun.deshmukh431@example.com,+918955683348,2000-08-14,Solapur,Maharashtra,Mass,Student,LOW,VERIFIED,BR005,2019-07-23,2026-08-08 21:44:00,INSERT,2026-08-01 16:10:00
+C000432,Rahul,Sharma,rahul.sharma432@example.com,+918156184315,1971-03-21,Nagpur,Maharashtra,Mass Affluent,Retired,LOW,VERIFIED,BR001,2024-07-14,2026-08-07 09:37:00,INSERT,2026-08-01 16:11:00
+C000433,Bhavna,Gupta,bhavna.gupta433@example.com,+918595138315,2001-08-07,Bengaluru,Karnataka,Mass Affluent,Salaried,LOW,VERIFIED,BR005,2019-08-18,2026-08-20 17:00:00,INSERT,2026-08-01 16:12:00
+C000434,Deepak,Jadhav,deepak.jadhav434@example.com,+917779982123,1977-03-29,Pune,Maharashtra,Preferred,Business Owner,MEDIUM,VERIFIED,BR004,2021-10-16,2026-09-04 16:02:00,INSERT,2026-08-01 16:13:00
+C000435,Kiran,More,kiran.more435@example.com,+918979269680,1968-06-05,Nashik,Maharashtra,Mass Affluent,Self Employed,LOW,VERIFIED,BR010,2022-08-16,2026-08-03 06:47:00,INSERT,2026-08-01 16:14:00
+C000436,Arjun,Patil,arjun.patil436@example.com,+917524593800,1982-09-22,Indore,Madhya Pradesh,Mass Affluent,Business Owner,LOW,VERIFIED,BR007,2020-04-07,2026-09-05 17:46:00,INSERT,2026-08-01 16:15:00
+C000437,Chetan,Pawar,chetan.pawar437@example.com,+918185840646,1970-09-25,Thane,Maharashtra,Mass,Self Employed,LOW,VERIFIED,BR016,2025-09-08,2026-08-01 05:42:00,INSERT,2026-08-01 16:16:00
+C000438,Ananya,Verma,ananya.verma438@example.com,+917677309706,2004-11-06,Chennai,Tamil Nadu,Mass,Student,LOW,PENDING,BR002,2019-09-02,2026-08-06 08:29:00,INSERT,2026-08-01 16:17:00
+C000439,Kavya,Deshmukh,kavya.deshmukh439@example.com,+917540424819,2003-10-07,Indore,Madhya Pradesh,Mass,Student,MEDIUM,VERIFIED,BR015,2021-03-01,2026-09-04 03:39:00,INSERT,2026-08-01 16:18:00
+C000440,Aarav,Jadhav,aarav.jadhav440@example.com,+917169602003,2003-07-16,Thane,Maharashtra,Mass Affluent,Student,LOW,VERIFIED,BR007,2025-05-10,2026-08-09 08:33:00,INSERT,2026-08-01 16:19:00
+C000441,Arjun,Singh,arjun.singh441@example.com,+918182509541,1974-05-21,Thane,Maharashtra,Mass,Self Employed,LOW,VERIFIED,BR018,2023-02-12,2026-08-21 15:59:00,INSERT,2026-08-01 16:20:00
+C000442,Neha,Sharma,neha.sharma442@example.com,+918627979724,1976-08-23,Chennai,Tamil Nadu,Preferred,Student,MEDIUM,VERIFIED,BR008,2022-08-06,2026-09-10 17:16:00,INSERT,2026-08-01 16:21:00
+C000443,Sneha,Kulkarni,sneha.kulkarni443@example.com,+917815483101,2007-01-06,Jaipur,Rajasthan,Mass Affluent,Student,LOW,VERIFIED,BR014,2026-03-10,2026-09-04 13:13:00,INSERT,2026-08-01 16:22:00
+C000444,Ishaan,Joshi,ishaan.joshi444@example.com,+917286387753,1963-12-05,Pune,Maharashtra,Preferred,Self Employed,LOW,VERIFIED,BR004,2024-06-11,2026-09-03 22:29:00,INSERT,2026-08-01 16:23:00
+C000445,Bhavna,Joshi,bhavna.joshi445@example.com,+918669019208,2003-12-14,Mumbai,Maharashtra,Mass Affluent,Retired,LOW,VERIFIED,BR008,2025-10-17,2026-09-06 21:54:00,INSERT,2026-08-01 16:24:00
+C000446,Shreya,Kulkarni,shreya.kulkarni446@example.com,+919110570534,1967-03-05,Mumbai,Maharashtra,Mass Affluent,Retired,LOW,VERIFIED,BR014,2023-02-20,2026-08-14 22:22:00,INSERT,2026-08-01 16:25:00
+C000447,Tanvi,Patil,tanvi.patil447@example.com,+917174603960,1966-04-25,Delhi,Delhi,Preferred,Salaried,MEDIUM,PENDING,BR004,2020-02-19,2026-08-18 18:03:00,INSERT,2026-08-01 16:26:00
+C000448,Sneha,Nair,sneha.nair448@example.com,+917829441721,2007-03-17,Ahmedabad,Gujarat,Mass Affluent,Student,LOW,VERIFIED,BR018,2023-08-28,2026-08-25 06:28:00,INSERT,2026-08-01 16:27:00
+C000449,Sneha,Joshi,sneha.joshi449@example.com,+918537440949,2001-02-25,Chennai,Tamil Nadu,Mass Affluent,Professional,MEDIUM,VERIFIED,BR006,2025-03-02,2026-09-10 19:40:00,INSERT,2026-08-01 16:28:00
+C000450,Kiran,Bhosale,kiran.bhosale450@example.com,+919293085064,1999-09-29,Thane,Maharashtra,Preferred,Business Owner,LOW,EXPIRED,BR012,2023-08-16,2026-09-12 05:23:00,INSERT,2026-08-01 16:29:00
+C000451,Suresh,Pawar,suresh.pawar451@example.com,+918033895513,2008-12-13,Indore,Madhya Pradesh,Mass,Student,MEDIUM,VERIFIED,BR015,2024-01-07,2026-08-21 20:46:00,INSERT,2026-08-01 16:30:00
+C000452,Kiran,Sharma,kiran.sharma452@example.com,+919558781873,1961-06-18,Indore,Madhya Pradesh,Mass Affluent,Business Owner,LOW,EXPIRED,BR007,2022-07-13,2026-08-03 09:42:00,INSERT,2026-08-01 16:31:00
+C000453,Aarav,Reddy,aarav.reddy453@example.com,+919451001264,1973-11-17,Ahmedabad,Gujarat,Mass,Professional,LOW,VERIFIED,BR012,2025-07-12,2026-09-02 18:59:00,INSERT,2026-08-01 16:32:00
+C000454,Chetan,Nair,chetan.nair454@example.com,+919450223707,1995-11-13,Solapur,Maharashtra,Mass Affluent,Self Employed,MEDIUM,VERIFIED,BR016,2020-12-09,2026-08-20 03:08:00,INSERT,2026-08-01 16:33:00
+C000455,Nikhil,Khan,nikhil.khan455@example.com,+918290179211,1963-05-09,Pune,Maharashtra,Mass Affluent,Student,LOW,VERIFIED,BR011,2022-11-26,2026-09-08 21:55:00,INSERT,2026-08-01 16:34:00
+C000456,Vivek,Pawar,vivek.pawar456@example.com,+919803665224,1961-01-09,Bengaluru,Karnataka,Mass Affluent,Retired,LOW,VERIFIED,BR002,2022-07-31,2026-08-08 07:44:00,INSERT,2026-08-01 16:35:00
+C000457,Rahul,Khan,rahul.khan457@example.com,+919996893560,1979-10-23,Nagpur,Maharashtra,Mass,Retired,MEDIUM,VERIFIED,BR015,2025-09-03,2026-08-21 17:08:00,INSERT,2026-08-01 16:36:00
+C000458,Riya,Bhosale,riya.bhosale458@example.com,+918244608630,1995-05-18,Pune,Maharashtra,Mass,Business Owner,LOW,VERIFIED,BR002,2025-02-23,2026-08-15 14:44:00,INSERT,2026-08-01 16:37:00
+C000459,Kiran,Reddy,kiran.reddy459@example.com,+918866125107,1971-09-12,Pune,Maharashtra,Preferred,Professional,LOW,VERIFIED,BR019,2021-03-14,2026-08-26 17:07:00,INSERT,2026-08-01 16:38:00
+C000460,Rahul,Naik,rahul.naik460@example.com,+918040735415,1966-06-05,Indore,Madhya Pradesh,Mass,Professional,LOW,PENDING,BR003,2020-04-05,2026-09-03 08:24:00,INSERT,2026-08-01 16:39:00
+C000461,Sanjay,Pawar,sanjay.pawar461@example.com,+917818147210,1988-10-09,Bengaluru,Karnataka,Mass,Retired,LOW,VERIFIED,BR012,2025-11-29,2026-08-24 11:53:00,INSERT,2026-08-01 16:40:00
+C000462,Varun,More,varun.more462@example.com,+917192747606,1980-12-11,Delhi,Delhi,Mass,Business Owner,LOW,VERIFIED,BR003,2020-04-05,2026-08-10 15:02:00,INSERT,2026-08-01 16:41:00
+C000463,Sneha,Patil,sneha.patil463@example.com,+918235598059,1961-03-26,Nashik,Maharashtra,Mass,Salaried,LOW,VERIFIED,BR011,2021-05-06,2026-09-09 05:02:00,INSERT,2026-08-01 16:42:00
+C000464,Sneha,Singh,sneha.singh464@example.com,+919247409826,1983-03-16,Nashik,Maharashtra,Mass Affluent,Student,MEDIUM,VERIFIED,BR001,2023-03-23,2026-08-14 18:39:00,INSERT,2026-08-01 16:43:00
+C000465,Riya,Bhosale,riya.bhosale465@example.com,+917258170698,1985-06-24,Mumbai,Maharashtra,Mass,Retired,LOW,VERIFIED,BR001,2019-09-30,2026-08-17 05:48:00,INSERT,2026-08-01 16:44:00
+C000466,Kiran,Reddy,kiran.reddy466@example.com,+917463390201,1961-09-17,Jaipur,Rajasthan,Mass,Retired,LOW,EXPIRED,BR017,2020-02-12,2026-09-12 12:17:00,INSERT,2026-08-01 16:45:00
+C000467,Vivek,Gupta,vivek.gupta467@example.com,+917378045890,1976-09-21,Hyderabad,Telangana,Mass,Professional,LOW,VERIFIED,BR002,2021-10-10,2026-09-08 18:08:00,INSERT,2026-08-01 16:46:00
+C000468,Yash,Bhosale,yash.bhosale468@example.com,+918689639333,1974-01-31,Solapur,Maharashtra,Mass,Retired,LOW,VERIFIED,BR008,2024-08-15,2026-08-22 16:43:00,INSERT,2026-08-01 16:47:00
+C000469,Deepak,Patil,deepak.patil469@example.com,+917126555049,1985-02-19,Jaipur,Rajasthan,Mass,Business Owner,MEDIUM,VERIFIED,BR003,2023-04-15,2026-08-17 13:12:00,INSERT,2026-08-01 16:48:00
+C000470,Pooja,Naik,pooja.naik470@example.com,+918792433036,1981-07-25,Jaipur,Rajasthan,Mass Affluent,Professional,HIGH,PENDING,BR011,2024-01-14,2026-09-13 07:45:00,INSERT,2026-08-01 16:49:00
+C000471,Rahul,Deshmukh,rahul.deshmukh471@example.com,+919495507871,2008-07-26,Nashik,Maharashtra,Mass Affluent,Self Employed,MEDIUM,VERIFIED,BR017,2020-07-07,2026-09-11 04:43:00,INSERT,2026-08-01 16:50:00
+C000472,Meera,Deshmukh,meera.deshmukh472@example.com,+918363635846,1966-01-31,Jaipur,Rajasthan,Mass Affluent,Retired,LOW,VERIFIED,BR005,2019-05-01,2026-09-06 05:23:00,INSERT,2026-08-01 16:51:00
+C000473,Suresh,Gupta,suresh.gupta473@example.com,+918902689772,1984-07-24,Bengaluru,Karnataka,Mass,Self Employed,LOW,VERIFIED,BR020,2025-12-02,2026-08-27 10:21:00,INSERT,2026-08-01 16:52:00
+C000474,Deepak,Naik,deepak.naik474@example.com,+919561349676,1980-10-30,Delhi,Delhi,Mass,Salaried,LOW,VERIFIED,BR016,2020-07-03,2026-09-09 07:52:00,INSERT,2026-08-01 16:53:00
+C000475,Pooja,Naik,pooja.naik475@example.com,+918606143397,1976-07-03,Hyderabad,Telangana,Preferred,Professional,LOW,VERIFIED,BR008,2019-05-13,2026-09-15 22:10:00,INSERT,2026-08-01 16:54:00
+C000476,Meera,Sharma,meera.sharma476@example.com,+919883379418,1978-03-13,Solapur,Maharashtra,Preferred,Salaried,LOW,PENDING,BR015,2025-12-02,2026-08-27 07:35:00,INSERT,2026-08-01 16:55:00
+C000477,Nikhil,Gupta,nikhil.gupta477@example.com,+918738889526,1963-10-02,Hyderabad,Telangana,Mass Affluent,Professional,MEDIUM,VERIFIED,BR019,2025-08-29,2026-08-16 14:35:00,INSERT,2026-08-01 16:56:00
+C000478,Rahul,Bhosale,rahul.bhosale478@example.com,+919236170837,1969-10-22,Jaipur,Rajasthan,Mass Affluent,Salaried,MEDIUM,VERIFIED,BR018,2023-06-09,2026-09-15 01:18:00,INSERT,2026-08-01 16:57:00
+C000479,Sneha,Patil,sneha.patil479@example.com,+919708614883,1964-06-03,Ahmedabad,Gujarat,Mass,Professional,LOW,VERIFIED,BR010,2024-03-04,2026-08-25 17:37:00,INSERT,2026-08-01 16:58:00
+C000480,Arjun,Pawar,arjun.pawar480@example.com,+919963325389,2006-05-19,Solapur,Maharashtra,Preferred,Professional,MEDIUM,VERIFIED,BR017,2020-04-08,2026-09-09 01:51:00,INSERT,2026-08-01 16:59:00
+C000481,Arjun,Khan,arjun.khan481@example.com,+918688208703,1997-02-06,Indore,Madhya Pradesh,Mass,Salaried,LOW,VERIFIED,BR007,2024-02-06,2026-09-04 04:37:00,INSERT,2026-08-01 17:00:00
+C000482,Akash,Reddy,akash.reddy482@example.com,+917704348972,1971-01-31,Thane,Maharashtra,Mass,Retired,LOW,VERIFIED,BR017,2023-04-23,2026-09-14 22:08:00,INSERT,2026-08-01 17:01:00
+C000483,Sneha,Bhosale,sneha.bhosale483@example.com,+919363717591,1994-02-22,Delhi,Delhi,Mass,Self Employed,MEDIUM,VERIFIED,BR005,2020-10-26,2026-08-11 12:55:00,INSERT,2026-08-01 17:02:00
+C000484,Vikas,Deshmukh,vikas.deshmukh484@example.com,+918802089646,1987-08-21,Nagpur,Maharashtra,Mass,Professional,LOW,VERIFIED,BR005,2021-04-10,2026-09-15 01:45:00,INSERT,2026-08-01 17:03:00
+C000485,Aarav,Naik,aarav.naik485@example.com,+918969855215,2004-08-23,Chennai,Tamil Nadu,Preferred,Student,MEDIUM,VERIFIED,BR016,2021-09-01,2026-08-17 00:25:00,INSERT,2026-08-01 17:04:00
+C000486,Bhavna,Khan,bhavna.khan486@example.com,+918761586711,1999-08-23,Jaipur,Rajasthan,Mass,Student,LOW,VERIFIED,BR009,2025-12-13,2026-08-31 15:29:00,INSERT,2026-08-01 17:05:00
+C000487,Sakshi,Singh,sakshi.singh487@example.com,+917636755414,1964-12-09,Nashik,Maharashtra,Mass Affluent,Salaried,LOW,VERIFIED,BR019,2025-10-07,2026-08-04 06:18:00,INSERT,2026-08-01 17:06:00
+C000488,Diya,Gupta,diya.gupta488@example.com,+918790816346,1975-12-28,Pune,Maharashtra,Mass,Business Owner,LOW,VERIFIED,BR020,2025-06-02,2026-08-04 03:43:00,INSERT,2026-08-01 17:07:00
+C000489,Tanvi,Singh,tanvi.singh489@example.com,+918546998451,1963-03-20,Nagpur,Maharashtra,Mass,Business Owner,LOW,VERIFIED,BR003,2023-10-17,2026-08-30 19:45:00,INSERT,2026-08-01 17:08:00
+C000490,Varun,Singh,varun.singh490@example.com,+917577869770,1970-12-12,Pune,Maharashtra,Mass Affluent,Business Owner,LOW,VERIFIED,BR007,2021-05-06,2026-08-19 16:04:00,INSERT,2026-08-01 17:09:00
+C000491,Rohan,Patil,rohan.patil491@example.com,+919271808426,1967-11-12,Pune,Maharashtra,Mass Affluent,Retired,LOW,VERIFIED,BR010,2023-10-16,2026-09-06 21:28:00,INSERT,2026-08-01 17:10:00
+C000492,Rohan,Gupta,rohan.gupta492@example.com,+919676813221,1991-09-30,Solapur,Maharashtra,Preferred,Student,LOW,VERIFIED,BR016,2024-07-10,2026-09-03 19:37:00,INSERT,2026-08-01 17:11:00
+C000493,Tanvi,Iyer,tanvi.iyer493@example.com,+917831314297,1960-02-21,Delhi,Delhi,Mass,Professional,LOW,VERIFIED,BR007,2025-11-25,2026-08-15 09:54:00,INSERT,2026-08-01 17:12:00
+C000494,Meera,Pawar,meera.pawar494@example.com,+919406966240,1979-01-18,Mumbai,Maharashtra,Mass,Self Employed,MEDIUM,VERIFIED,BR003,2022-06-14,2026-08-22 11:56:00,INSERT,2026-08-01 17:13:00
+C000495,Diya,Bhosale,diya.bhosale495@example.com,+917488925154,1989-11-25,Ahmedabad,Gujarat,Mass,Retired,LOW,PENDING,BR006,2021-03-05,2026-08-21 00:12:00,INSERT,2026-08-01 17:14:00
+C000496,Ishaan,Gupta,ishaan.gupta496@example.com,+917152721525,1972-03-06,Jaipur,Rajasthan,Mass Affluent,Retired,LOW,VERIFIED,BR011,2024-03-09,2026-08-31 16:11:00,INSERT,2026-08-01 17:15:00
+C000497,Tanvi,Pawar,tanvi.pawar497@example.com,+918285671613,1988-04-21,Indore,Madhya Pradesh,Mass Affluent,Salaried,LOW,VERIFIED,BR012,2019-09-29,2026-08-04 17:47:00,INSERT,2026-08-01 17:16:00
+C000498,Ananya,Reddy,ananya.reddy498@example.com,+919690843594,2007-12-07,Mumbai,Maharashtra,Preferred,Student,LOW,VERIFIED,BR004,2022-06-16,2026-08-22 12:48:00,INSERT,2026-08-01 17:17:00
+C000499,Shreya,Gupta,shreya.gupta499@example.com,+918777556269,1967-10-15,Indore,Madhya Pradesh,Mass Affluent,Self Employed,LOW,VERIFIED,BR010,2021-06-04,2026-08-03 09:16:00,INSERT,2026-08-01 17:18:00
+C000500,Pooja,Shah,pooja.shah500@example.com,+917160610438,1978-02-17,Nagpur,Maharashtra,Preferred,Professional,LOW,VERIFIED,BR017,2020-09-23,2026-08-08 12:46:00,INSERT,2026-08-01 17:19:00
+C000088,Bhavna,Deshmukh,bhavna.deshmukh88@example.com,+919279993598,2005-01-06,Pune,Maharashtra,Mass Affluent,Self Employed,LOW,VERIFIED,BR016,2022-04-23,2026-08-06 09:00:00,UPDATE,2026-08-06 11:00:00
+C000043,Neha,Pawar,neha.pawar43@example.com,+918672790155,1961-10-02,Mumbai,Maharashtra,Private,Student,LOW,VERIFIED,BR012,2022-05-08,2026-08-07 09:00:00,UPDATE,2026-08-07 11:00:00
+C000405,Vivek,Singh,vivek.singh405@example.com,+919981531341,1999-09-21,Mumbai,Maharashtra,Mass,Student,LOW,VERIFIED,BR011,2024-02-23,2026-08-08 09:00:00,UPDATE,2026-08-08 11:00:00
+C000114,Riya,Pawar,riya.pawar114@example.com,+918793981895,1985-12-21,Ahmedabad,Gujarat,Mass,Salaried,HIGH,VERIFIED,BR020,2024-02-28,2026-08-09 09:00:00,UPDATE,2026-08-09 11:00:00
+C000400,Sakshi,Bhosale,sakshi.bhosale400@example.com,+917246801831,1975-09-22,Indore,Madhya Pradesh,Preferred,Professional,LOW,VERIFIED,BR017,2022-03-17,2026-08-10 09:00:00,UPDATE,2026-08-10 11:00:00
+C000293,Deepak,Joshi,deepak.joshi293@example.com,+918612579345,1974-06-08,Jaipur,Rajasthan,Mass Affluent,Student,MEDIUM,EXPIRED,BR011,2025-08-30,2026-08-11 09:00:00,UPDATE,2026-08-11 11:00:00
+C000210,Sanjay,Reddy,sanjay.reddy210@example.com,+917141312095,1976-02-03,Chennai,Tamil Nadu,Preferred,Business Owner,LOW,VERIFIED,BR005,2023-06-20,2026-08-12 09:00:00,UPDATE,2026-08-12 11:00:00
+C000437,Chetan,Pawar,chetan.pawar437@example.com,+918185840646,1970-09-25,Delhi,Delhi,Private,Self Employed,LOW,VERIFIED,BR016,2025-09-08,2026-08-13 09:00:00,UPDATE,2026-08-13 11:00:00
+C000101,Akash,Deshmukh,akash.deshmukh101@example.com,+919514122177,2009-03-12,Hyderabad,Telangana,Mass Affluent,Professional,HIGH,VERIFIED,BR015,2024-09-01,2026-08-14 09:00:00,UPDATE,2026-08-14 11:00:00
+C000333,Sanjay,Kulkarni,sanjay.kulkarni333@example.com,+919122160665,1973-05-19,Chennai,Tamil Nadu,Private,Student,LOW,VERIFIED,BR009,2026-03-24,2026-08-15 09:00:00,UPDATE,2026-08-15 11:00:00
+C000207,Tanvi,Jadhav,tanvi.jadhav207@example.com,+918971380304,1981-10-26,Nagpur,Maharashtra,Preferred,Self Employed,LOW,VERIFIED,BR003,2026-05-01,2026-08-16 09:00:00,UPDATE,2026-08-16 11:00:00
+C000079,Nikhil,Reddy,nikhil.reddy79@example.com,+918707177877,1967-03-16,Indore,Madhya Pradesh,Preferred,Retired,MEDIUM,VERIFIED,BR011,2026-01-11,2026-08-17 09:00:00,UPDATE,2026-08-17 11:00:00
+C000014,Pooja,Nair,pooja.nair14@example.com,+917920140090,2008-05-17,Nagpur,Maharashtra,Preferred,Student,LOW,VERIFIED,BR016,2023-07-26,2026-08-18 09:00:00,UPDATE,2026-08-18 11:00:00
+C000363,Vivek,Gupta,vivek.gupta363@example.com,+918102048042,2008-06-19,Hyderabad,Telangana,Private,Salaried,MEDIUM,VERIFIED,BR012,2024-10-07,2026-08-19 09:00:00,UPDATE,2026-08-19 11:00:00
+C000299,Sanjay,Verma,sanjay.verma299@example.com,+919532855799,1980-05-30,Pune,Maharashtra,Preferred,Professional,MEDIUM,VERIFIED,BR018,2024-04-28,2026-08-20 09:00:00,UPDATE,2026-08-20 11:00:00
+C000039,Chetan,Iyer,chetan.iyer39@example.com,+918995226582,1964-07-03,Mumbai,Maharashtra,Mass Affluent,Salaried,LOW,VERIFIED,BR017,2025-04-08,2026-08-21 09:00:00,UPDATE,2026-08-21 11:00:00
+C000209,Tanvi,Gupta,tanvi.gupta209@example.com,+917182758417,1980-08-11,Nashik,Maharashtra,Preferred,Retired,MEDIUM,VERIFIED,BR002,2019-11-01,2026-08-22 09:00:00,UPDATE,2026-08-22 11:00:00
+C000004,Chetan,Patil,chetan.patil4@example.com,+918149938334,1965-12-08,Delhi,Delhi,Preferred,Student,MEDIUM,VERIFIED,BR016,2023-06-09,2026-08-23 09:00:00,UPDATE,2026-08-23 11:00:00
+C000339,Deepak,Gupta,deepak.gupta339@example.com,+919254075750,1980-02-04,Ahmedabad,Gujarat,Mass,Retired,MEDIUM,VERIFIED,BR020,2020-01-26,2026-08-24 09:00:00,UPDATE,2026-08-24 11:00:00
+C000140,Deepak,Patil,deepak.patil140@example.com,+918228836941,1992-01-10,Ahmedabad,Gujarat,Private,Salaried,MEDIUM,VERIFIED,BR004,2023-02-16,2026-08-25 09:00:00,UPDATE,2026-08-25 11:00:00
+C000300,Riya,Nair,riya.nair300@example.com,+918695671834,1963-02-11,Pune,Maharashtra,Private,Student,MEDIUM,VERIFIED,BR020,2020-08-26,2026-08-26 09:00:00,UPDATE,2026-08-26 11:00:00
+C000347,Bhavna,Mehta,bhavna.mehta347@example.com,+918962997637,1977-02-04,Jaipur,Rajasthan,Mass Affluent,Salaried,MEDIUM,VERIFIED,BR019,2020-05-19,2026-08-27 09:00:00,UPDATE,2026-08-27 11:00:00
+C000472,Meera,Deshmukh,meera.deshmukh472@example.com,+918363635846,1966-01-31,Chennai,Tamil Nadu,Mass,Retired,LOW,VERIFIED,BR005,2019-05-01,2026-08-28 09:00:00,UPDATE,2026-08-28 11:00:00
+C000151,Akash,Deshmukh,akash.deshmukh151@example.com,+918932625737,2001-10-16,Solapur,Maharashtra,Mass Affluent,Business Owner,LOW,VERIFIED,BR018,2026-03-05,2026-08-29 09:00:00,UPDATE,2026-08-29 11:00:00
+C000057,Sneha,Singh,sneha.singh57@example.com,+918948821078,1984-04-21,Solapur,Maharashtra,Mass Affluent,Self Employed,LOW,VERIFIED,BR004,2025-01-03,2026-08-30 09:00:00,UPDATE,2026-08-30 11:00:00
+C000245,Pooja,Reddy,pooja.reddy245@example.com,+919096135091,1989-05-12,Nagpur,Maharashtra,Private,Retired,LOW,EXPIRED,BR012,2019-09-17,2026-08-06 09:00:00,UPDATE,2026-08-06 11:00:00
+C000377,Bhavna,Reddy,bhavna.reddy377@example.com,+917323840346,1961-09-02,Ahmedabad,Gujarat,Preferred,Retired,LOW,VERIFIED,BR013,2025-08-13,2026-08-07 09:00:00,UPDATE,2026-08-07 11:00:00
+C000359,Neha,Deshmukh,neha.deshmukh359@example.com,+919563581525,1964-07-24,Nashik,Maharashtra,Mass Affluent,Retired,LOW,VERIFIED,BR016,2025-06-03,2026-08-08 09:00:00,UPDATE,2026-08-08 11:00:00
+C000081,Suresh,Joshi,suresh.joshi81@example.com,+918286196999,1962-08-06,Pune,Maharashtra,Mass,Salaried,LOW,VERIFIED,BR005,2021-09-27,2026-08-09 09:00:00,UPDATE,2026-08-09 11:00:00
+C000443,Sneha,Kulkarni,sneha.kulkarni443@example.com,+917815483101,2007-01-06,Pune,Maharashtra,Mass Affluent,Student,LOW,VERIFIED,BR014,2026-03-10,2026-08-10 09:00:00,UPDATE,2026-08-10 11:00:00
+C000100,Neha,Sharma,neha.sharma100@example.com,+918830831254,1969-09-07,Nashik,Maharashtra,Mass Affluent,Professional,LOW,VERIFIED,BR020,2020-08-30,2026-08-11 09:00:00,UPDATE,2026-08-11 11:00:00
+C000035,Riya,Shah,riya.shah35@example.com,+918305132983,1985-09-27,Mumbai,Maharashtra,Mass,Student,LOW,VERIFIED,BR015,2023-12-17,2026-08-12 09:00:00,UPDATE,2026-08-12 11:00:00
+C000458,Riya,Bhosale,riya.bhosale458@example.com,+918244608630,1995-05-18,Solapur,Maharashtra,Mass,Business Owner,LOW,VERIFIED,BR002,2025-02-23,2026-08-13 09:00:00,UPDATE,2026-08-13 11:00:00
+C000320,Tanvi,Gupta,tanvi.gupta320@example.com,+918262939955,2001-08-09,Mumbai,Maharashtra,Mass Affluent,Professional,LOW,VERIFIED,BR019,2025-12-17,2026-08-14 09:00:00,UPDATE,2026-08-14 11:00:00
+C000015,Bhavna,Joshi,bhavna.joshi15@example.com,+918521696479,1997-12-31,Hyderabad,Telangana,Private,Retired,LOW,VERIFIED,BR004,2019-09-06,2026-08-15 09:00:00,UPDATE,2026-08-15 11:00:00
+C000033,Pooja,Singh,pooja.singh33@example.com,+918564319318,1998-09-10,Thane,Maharashtra,Preferred,Retired,MEDIUM,VERIFIED,BR004,2022-05-15,2026-08-16 09:00:00,UPDATE,2026-08-16 11:00:00
+C000225,Yash,Kulkarni,yash.kulkarni225@example.com,+919854838525,1991-11-06,Indore,Madhya Pradesh,Mass,Student,LOW,EXPIRED,BR013,2022-09-20,2026-08-17 09:00:00,UPDATE,2026-08-17 11:00:00
+C000029,Vivek,Pawar,vivek.pawar29@example.com,+918768294570,1982-04-06,Pune,Maharashtra,Preferred,Retired,LOW,VERIFIED,BR016,2021-06-30,2026-08-18 09:00:00,UPDATE,2026-08-18 11:00:00
+C000358,Arjun,Bhosale,arjun.bhosale358@example.com,+918840427040,1985-01-14,Mumbai,Maharashtra,Preferred,Self Employed,LOW,VERIFIED,BR001,2022-09-15,2026-08-19 09:00:00,UPDATE,2026-08-19 11:00:00
+C000411,Nikhil,Iyer,nikhil.iyer411@example.com,+918708879427,1979-12-04,Bengaluru,Karnataka,Preferred,Self Employed,LOW,VERIFIED,BR016,2025-01-23,2026-08-20 09:00:00,UPDATE,2026-08-20 11:00:00
+C000200,Deepak,Verma,deepak.verma200@example.com,+917423519117,2002-02-13,Indore,Madhya Pradesh,Mass,Business Owner,MEDIUM,VERIFIED,BR014,2019-07-07,2026-08-21 09:00:00,UPDATE,2026-08-21 11:00:00
+C000217,Diya,Pawar,diya.pawar217@example.com,+918042571199,2006-10-01,Nagpur,Maharashtra,Preferred,Professional,LOW,VERIFIED,BR009,2024-07-12,2026-08-22 09:00:00,UPDATE,2026-08-22 11:00:00
+C000422,Neha,Pawar,neha.pawar422@example.com,+917537042335,1981-01-18,Hyderabad,Telangana,Private,Retired,MEDIUM,VERIFIED,BR006,2023-06-15,2026-08-23 09:00:00,UPDATE,2026-08-23 11:00:00
+C000270,Aditi,Nair,aditi.nair270@example.com,+918599840853,2001-02-16,Mumbai,Maharashtra,Mass,Salaried,LOW,VERIFIED,BR013,2019-11-03,2026-08-24 09:00:00,UPDATE,2026-08-24 11:00:00
+C000193,Ishaan,Khan,ishaan.khan193@example.com,+918017495081,1987-01-27,Delhi,Delhi,Preferred,Retired,LOW,VERIFIED,BR009,2019-09-07,2026-08-25 09:00:00,UPDATE,2026-08-25 11:00:00
+C000125,Rahul,Jadhav,rahul.jadhav125@example.com,+919878128023,2007-03-23,Delhi,Delhi,Mass,Retired,LOW,VERIFIED,BR012,2022-06-19,2026-08-26 09:00:00,UPDATE,2026-08-26 11:00:00
+C000419,Riya,Singh,riya.singh419@example.com,+918396252148,2005-10-17,Nagpur,Maharashtra,Private,Retired,LOW,VERIFIED,BR020,2022-03-19,2026-08-27 09:00:00,UPDATE,2026-08-27 11:00:00
+C000464,Sneha,Singh,sneha.singh464@example.com,+919247409826,1983-03-16,Indore,Madhya Pradesh,Mass,Student,MEDIUM,VERIFIED,BR001,2023-03-23,2026-08-28 09:00:00,UPDATE,2026-08-28 11:00:00
+C000069,Nikhil,Verma,nikhil.verma69@example.com,+919878201524,1969-05-20,Solapur,Maharashtra,Private,Business Owner,LOW,VERIFIED,BR013,2025-03-03,2026-08-29 09:00:00,UPDATE,2026-08-29 11:00:00
+C000052,Meera,Verma,meera.verma52@example.com,+918870403050,1975-10-20,Nashik,Maharashtra,Private,Retired,LOW,VERIFIED,BR018,2024-06-03,2026-08-30 09:00:00,UPDATE,2026-08-30 11:00:00
+C000462,Varun,More,varun.more462@example.com,+917192747606,1980-12-11,Delhi,Delhi,Mass,Business Owner,LOW,VERIFIED,BR003,2020-04-05,2026-08-06 09:00:00,UPDATE,2026-08-06 11:00:00
+C000280,Meera,Mehta,meera.mehta280@example.com,+919709069459,2008-10-09,Chennai,Tamil Nadu,Mass,Professional,MEDIUM,VERIFIED,BR018,2024-06-08,2026-08-07 09:00:00,UPDATE,2026-08-07 11:00:00
+C000407,Meera,Verma,meera.verma407@example.com,+918131078331,1982-04-09,Ahmedabad,Gujarat,Mass Affluent,Professional,MEDIUM,VERIFIED,BR003,2025-03-21,2026-08-08 09:00:00,UPDATE,2026-08-08 11:00:00
+C000186,Ananya,Bhosale,ananya.bhosale186@example.com,+917247977570,2001-06-25,Chennai,Tamil Nadu,Private,Business Owner,MEDIUM,VERIFIED,BR001,2021-06-11,2026-08-09 09:00:00,UPDATE,2026-08-09 11:00:00
+C000403,Rahul,Shah,rahul.shah403@example.com,+918495057700,1991-03-05,Solapur,Maharashtra,Mass Affluent,Business Owner,LOW,PENDING,BR015,2023-07-13,2026-08-10 09:00:00,UPDATE,2026-08-10 11:00:00
+C000285,Pooja,Chavan,pooja.chavan285@example.com,+917865282924,1971-09-15,Bengaluru,Karnataka,Mass Affluent,Self Employed,MEDIUM,VERIFIED,BR011,2019-09-01,2026-08-11 09:00:00,UPDATE,2026-08-11 11:00:00
+C000295,Meera,Singh,meera.singh295@example.com,+919837246354,1985-04-03,Bengaluru,Karnataka,Private,Salaried,LOW,VERIFIED,BR016,2020-09-21,2026-08-12 09:00:00,UPDATE,2026-08-12 11:00:00
+C000111,Aman,Verma,aman.verma111@example.com,+919912923661,2003-08-28,Pune,Maharashtra,Private,Business Owner,LOW,VERIFIED,BR020,2019-08-13,2026-08-13 09:00:00,UPDATE,2026-08-13 11:00:00
+C000432,Rahul,Sharma,rahul.sharma432@example.com,+918156184315,1971-03-21,Indore,Madhya Pradesh,Mass Affluent,Retired,LOW,VERIFIED,BR001,2024-07-14,2026-08-14 09:00:00,UPDATE,2026-08-14 11:00:00
+C000178,Rahul,Bhosale,rahul.bhosale178@example.com,+919010133918,1984-06-23,Bengaluru,Karnataka,Private,Salaried,LOW,VERIFIED,BR009,2021-02-01,2026-08-15 09:00:00,UPDATE,2026-08-15 11:00:00
+C000263,Aditi,Chavan,aditi.chavan263@example.com,+917675641216,1982-11-20,Jaipur,Rajasthan,Private,Student,MEDIUM,VERIFIED,BR017,2019-01-11,2026-08-16 09:00:00,UPDATE,2026-08-16 11:00:00
+C000129,Kavya,Khan,kavya.khan129@example.com,+918640129626,2005-02-12,Pune,Maharashtra,Private,Self Employed,MEDIUM,VERIFIED,BR005,2021-10-21,2026-08-17 09:00:00,UPDATE,2026-08-17 11:00:00
+C000373,Akash,Reddy,akash.reddy373@example.com,+919092466848,1989-09-06,Indore,Madhya Pradesh,Private,Retired,MEDIUM,VERIFIED,BR020,2019-10-13,2026-08-18 09:00:00,UPDATE,2026-08-18 11:00:00
+C000369,Diya,More,diya.more369@example.com,+917132367258,2002-07-10,Thane,Maharashtra,Mass Affluent,Self Employed,LOW,VERIFIED,BR018,2022-04-23,2026-08-19 09:00:00,UPDATE,2026-08-19 11:00:00
+C000385,Arjun,Verma,arjun.verma385@example.com,+919839444315,1980-08-30,Delhi,Delhi,Private,Business Owner,MEDIUM,VERIFIED,BR016,2024-05-16,2026-08-20 09:00:00,UPDATE,2026-08-20 11:00:00
+C000336,Varun,Gupta,varun.gupta336@example.com,+918719061621,2000-12-15,Indore,Madhya Pradesh,Preferred,Professional,MEDIUM,VERIFIED,BR014,2026-04-11,2026-08-21 09:00:00,UPDATE,2026-08-21 11:00:00
+C000027,Akash,Deshmukh,akash.deshmukh27@example.com,+919501859536,1973-04-14,Jaipur,Rajasthan,Mass Affluent,Salaried,LOW,VERIFIED,BR002,2023-01-05,2026-08-22 09:00:00,UPDATE,2026-08-22 11:00:00
+C000414,Rohan,Gupta,rohan.gupta414@example.com,+918820820806,1978-11-20,Indore,Madhya Pradesh,Private,Business Owner,LOW,VERIFIED,BR015,2021-01-06,2026-08-23 09:00:00,UPDATE,2026-08-23 11:00:00
+C000412,Aditi,Bhosale,aditi.bhosale412@example.com,+917750761833,2001-01-06,Delhi,Delhi,Mass,Retired,LOW,VERIFIED,BR001,2019-02-18,2026-08-24 09:00:00,UPDATE,2026-08-24 11:00:00
+C000157,Ishaan,Naik,ishaan.naik157@example.com,+918483355242,1995-10-09,Thane,Maharashtra,Preferred,Business Owner,LOW,VERIFIED,BR008,2024-03-25,2026-08-25 09:00:00,UPDATE,2026-08-25 11:00:00
+C000247,Tanvi,Gupta,tanvi.gupta247@example.com,+917427670241,2001-03-25,Indore,Madhya Pradesh,Private,Self Employed,LOW,VERIFIED,BR014,2021-04-08,2026-08-26 09:00:00,UPDATE,2026-08-26 11:00:00
+C000021,Aman,Khan,aman.khan21@example.com,+917170689150,1967-05-10,Ahmedabad,Gujarat,Mass,Student,LOW,VERIFIED,BR009,2021-04-16,2026-08-27 09:00:00,UPDATE,2026-08-27 11:00:00
+C000399,Yash,Naik,yash.naik399@example.com,+918129971523,1979-11-23,Jaipur,Rajasthan,Preferred,Student,LOW,VERIFIED,BR013,2025-11-19,2026-08-28 09:00:00,UPDATE,2026-08-28 11:00:00
+C000188,Arjun,Deshmukh,arjun.deshmukh188@example.com,+918805440796,1993-08-05,Pune,Maharashtra,Mass Affluent,Professional,LOW,PENDING,BR013,2023-03-19,2026-08-29 09:00:00,UPDATE,2026-08-29 11:00:00
+C000356,Aditi,Jadhav,aditi.jadhav356@example.com,+918342838606,1964-10-28,Solapur,Maharashtra,Preferred,Business Owner,LOW,VERIFIED,BR015,2021-07-12,2026-08-30 09:00:00,UPDATE,2026-08-30 11:00:00
+C000234,Riya,Kulkarni,riya.kulkarni234@example.com,+917506211965,1981-05-27,Nagpur,Maharashtra,Private,Self Employed,LOW,VERIFIED,BR013,2023-09-10,2026-08-06 09:00:00,UPDATE,2026-08-06 11:00:00
+C000046,Meera,Deshmukh,meera.deshmukh46@example.com,+918117362852,1994-01-04,Chennai,Tamil Nadu,Private,Professional,LOW,VERIFIED,BR013,2022-02-13,2026-08-07 09:00:00,UPDATE,2026-08-07 11:00:00
+C000442,Neha,Sharma,neha.sharma442@example.com,+918627979724,1976-08-23,Mumbai,Maharashtra,Preferred,Student,MEDIUM,VERIFIED,BR008,2022-08-06,2026-08-08 09:00:00,UPDATE,2026-08-08 11:00:00
+C000082,Pooja,Pawar,pooja.pawar82@example.com,+917730074215,1975-09-15,Mumbai,Maharashtra,Private,Professional,LOW,VERIFIED,BR019,2020-08-09,2026-08-09 09:00:00,UPDATE,2026-08-09 11:00:00
+C000214,Suresh,Naik,suresh.naik214@example.com,+917352350576,1984-01-15,Thane,Maharashtra,Preferred,Retired,MEDIUM,VERIFIED,BR013,2022-07-21,2026-08-10 09:00:00,UPDATE,2026-08-10 11:00:00
+C000163,Ananya,Joshi,ananya.joshi163@example.com,+919395869480,1992-10-19,Mumbai,Maharashtra,Preferred,Self Employed,LOW,VERIFIED,BR002,2019-07-05,2026-08-11 09:00:00,UPDATE,2026-08-11 11:00:00
+C000199,Yash,Nair,yash.nair199@example.com,+918703521697,1981-06-21,Bengaluru,Karnataka,Mass Affluent,Business Owner,LOW,VERIFIED,BR012,2022-06-17,2026-08-12 09:00:00,UPDATE,2026-08-12 11:00:00
+C000441,Arjun,Singh,arjun.singh441@example.com,+918182509541,1974-05-21,Solapur,Maharashtra,Preferred,Self Employed,LOW,VERIFIED,BR018,2023-02-12,2026-08-13 09:00:00,UPDATE,2026-08-13 11:00:00
+C000197,Vikas,Verma,vikas.verma197@example.com,+917221348142,1984-01-31,Ahmedabad,Gujarat,Mass,Student,LOW,VERIFIED,BR007,2025-08-03,2026-08-14 09:00:00,UPDATE,2026-08-14 11:00:00
+C000355,Suresh,Singh,suresh.singh355@example.com,+917440148273,1980-02-15,Ahmedabad,Gujarat,Private,Student,LOW,VERIFIED,BR010,2026-06-14,2026-08-15 09:00:00,UPDATE,2026-08-15 11:00:00
+C000143,Rohan,Pawar,rohan.pawar143@example.com,+918509882812,2000-02-11,Hyderabad,Telangana,Preferred,Business Owner,LOW,VERIFIED,BR002,2019-11-04,2026-08-16 09:00:00,UPDATE,2026-08-16 11:00:00
+C000451,Suresh,Pawar,suresh.pawar451@example.com,+918033895513,2008-12-13,Mumbai,Maharashtra,Mass,Student,MEDIUM,VERIFIED,BR015,2024-01-07,2026-08-17 09:00:00,UPDATE,2026-08-17 11:00:00
+C000349,Nikhil,Bhosale,nikhil.bhosale349@example.com,+919484872186,1975-07-31,Nashik,Maharashtra,Mass,Self Employed,LOW,VERIFIED,BR020,2022-08-11,2026-08-18 09:00:00,UPDATE,2026-08-18 11:00:00
+C000220,Ishaan,Pawar,ishaan.pawar220@example.com,+918290359719,1988-10-07,Delhi,Delhi,Mass Affluent,Retired,LOW,VERIFIED,BR013,2022-07-31,2026-08-19 09:00:00,UPDATE,2026-08-19 11:00:00
+C000162,Kavya,Singh,kavya.singh162@example.com,+919165761020,2000-05-27,Ahmedabad,Gujarat,Private,Business Owner,MEDIUM,VERIFIED,BR020,2020-05-01,2026-08-20 09:00:00,UPDATE,2026-08-20 11:00:00
+C000203,Yash,Singh,yash.singh203@example.com,+917145271935,1966-09-01,Mumbai,Maharashtra,Private,Retired,LOW,VERIFIED,BR005,2026-01-27,2026-08-21 09:00:00,UPDATE,2026-08-21 11:00:00
+C000460,Rahul,Naik,rahul.naik460@example.com,+918040735415,1966-06-05,Solapur,Maharashtra,Mass,Professional,LOW,PENDING,BR003,2020-04-05,2026-08-22 09:00:00,UPDATE,2026-08-22 11:00:00
+C000215,Kavya,Joshi,kavya.joshi215@example.com,+918910126009,1992-04-15,Solapur,Maharashtra,Mass Affluent,Salaried,LOW,VERIFIED,BR015,2025-03-31,2026-08-23 09:00:00,UPDATE,2026-08-23 11:00:00
+C000235,Rohan,Deshmukh,rohan.deshmukh235@example.com,+917797806061,2003-08-30,Mumbai,Maharashtra,Mass,Retired,MEDIUM,PENDING,BR006,2025-03-22,2026-08-24 09:00:00,UPDATE,2026-08-24 11:00:00
+C000049,Arjun,Naik,arjun.naik49@example.com,+917703368777,1987-11-27,Nashik,Maharashtra,Preferred,Salaried,MEDIUM,VERIFIED,BR013,2023-06-13,2026-08-25 09:00:00,UPDATE,2026-08-25 11:00:00
+C000172,Aman,Khan,aman.khan172@example.com,+918694503971,1990-12-18,Delhi,Delhi,Preferred,Self Employed,LOW,VERIFIED,BR003,2022-11-19,2026-08-26 09:00:00,UPDATE,2026-08-26 11:00:00
+C000448,Sneha,Nair,sneha.nair448@example.com,+917829441721,2007-03-17,Nashik,Maharashtra,Mass Affluent,Student,LOW,VERIFIED,BR018,2023-08-28,2026-08-27 09:00:00,UPDATE,2026-08-27 11:00:00
+C000396,Kiran,Mehta,kiran.mehta396@example.com,+919072183247,1976-01-13,Ahmedabad,Gujarat,Mass,Student,LOW,EXPIRED,BR019,2022-11-11,2026-08-28 09:00:00,UPDATE,2026-08-28 11:00:00
+C000058,Suresh,Iyer,suresh.iyer58@example.com,+918187556862,2007-01-25,Solapur,Maharashtra,Mass,Salaried,MEDIUM,VERIFIED,BR012,2021-01-04,2026-08-29 09:00:00,UPDATE,2026-08-29 11:00:00
+C000499,Shreya,Gupta,shreya.gupta499@example.com,+918777556269,1967-10-15,Solapur,Maharashtra,Private,Self Employed,LOW,VERIFIED,BR010,2021-06-04,2026-08-30 09:00:00,UPDATE,2026-08-30 11:00:00
+C000091,Varun,Verma,varun.verma91@example.com,+919024977737,1962-03-31,Pune,Maharashtra,Private,Student,HIGH,VERIFIED,BR003,2026-02-15,2026-09-05 09:00:00,UPDATE,2026-09-05 09:00:00
+C000160,Kiran,Bhosale,kiran.bhosale160@example.com,+919505443885,1991-08-29,Hyderabad,Telangana,Mass Affluent,Business Owner,LOW,VERIFIED,BR016,2022-03-16,2026-09-06 09:00:00,UPDATE,2026-09-06 09:00:00
+C000244,Kiran,Chavan,kiran.chavan244@example.com,+918154131362,1997-02-28,Nagpur,Maharashtra,Preferred,Salaried,MEDIUM,VERIFIED,BR003,2023-07-09,2026-09-07 09:00:00,UPDATE,2026-09-07 09:00:00
+C000273,Kavya,Mehta,kavya.mehta273@example.com,+918138200363,1970-10-04,Hyderabad,Telangana,Preferred,Retired,MEDIUM,VERIFIED,BR020,2019-06-15,2026-09-08 09:00:00,UPDATE,2026-09-08 09:00:00
+C000224,Kiran,Singh,kiran.singh224@example.com,+919334938378,1963-04-19,Ahmedabad,Gujarat,Private,Business Owner,MEDIUM,VERIFIED,BR020,2026-02-26,2026-09-09 09:00:00,UPDATE,2026-09-09 09:00:00
+C000352,Sanjay,Verma,sanjay.verma352@example.com,+917763699730,2005-03-16,Jaipur,Rajasthan,Preferred,Retired,HIGH,VERIFIED,BR012,2025-04-22,2026-09-10 09:00:00,UPDATE,2026-09-10 09:00:00
+C000373,Akash,Reddy,akash.reddy373@example.com,+919092466848,1989-09-06,Pune,Maharashtra,Mass Affluent,Retired,LOW,VERIFIED,BR020,2019-10-13,2026-09-11 09:00:00,UPDATE,2026-09-11 09:00:00
+C000101,Akash,Deshmukh,akash.deshmukh101@example.com,+919514122177,2009-03-12,Solapur,Maharashtra,Private,Professional,LOW,VERIFIED,BR015,2024-09-01,2026-09-12 09:00:00,UPDATE,2026-09-12 09:00:00
+C000408,Yash,Iyer,yash.iyer408@example.com,+917938734379,1984-02-21,Hyderabad,Telangana,Private,Retired,LOW,PENDING,BR016,2021-03-28,2026-09-13 09:00:00,UPDATE,2026-09-13 09:00:00
+C000184,Pooja,More,pooja.more184@example.com,+917335448617,1970-01-24,Ahmedabad,Gujarat,Preferred,Student,MEDIUM,VERIFIED,BR018,2020-09-05,2026-09-14 09:00:00,UPDATE,2026-09-14 09:00:00
+C000431,Arjun,Deshmukh,arjun.deshmukh431@example.com,+918955683348,2000-08-14,Solapur,Maharashtra,Preferred,Student,HIGH,VERIFIED,BR005,2019-07-23,2026-09-15 09:00:00,UPDATE,2026-09-15 09:00:00
+C000226,Tanvi,Pawar,tanvi.pawar226@example.com,+918111272861,1979-12-01,Pune,Maharashtra,Preferred,Student,HIGH,VERIFIED,BR008,2023-12-31,2026-09-16 09:00:00,UPDATE,2026-09-16 09:00:00
+C000475,Pooja,Naik,pooja.naik475@example.com,+918606143397,1976-07-03,Hyderabad,Telangana,Preferred,Professional,LOW,VERIFIED,BR008,2019-05-13,2026-09-17 09:00:00,UPDATE,2026-09-17 09:00:00
+C000386,Bhavna,Khan,bhavna.khan386@example.com,+917096405016,1981-11-10,Nagpur,Maharashtra,Private,Student,MEDIUM,VERIFIED,BR017,2019-06-10,2026-09-18 09:00:00,UPDATE,2026-09-18 09:00:00
+C000095,Vivek,Verma,vivek.verma95@example.com,+917815221547,1970-12-16,Mumbai,Maharashtra,Mass Affluent,Professional,HIGH,VERIFIED,BR020,2019-03-29,2026-09-19 09:00:00,UPDATE,2026-09-19 09:00:00
+C000111,Aman,Verma,aman.verma111@example.com,+919912923661,2003-08-28,Bengaluru,Karnataka,Preferred,Business Owner,LOW,VERIFIED,BR020,2019-08-13,2026-09-20 09:00:00,UPDATE,2026-09-20 09:00:00
+C000211,Yash,Kulkarni,yash.kulkarni211@example.com,+918032820212,1994-11-29,Solapur,Maharashtra,Mass Affluent,Student,HIGH,VERIFIED,BR005,2019-11-18,2026-09-21 09:00:00,UPDATE,2026-09-21 09:00:00
+C000340,Meera,Nair,meera.nair340@example.com,+919904667340,1994-07-12,Hyderabad,Telangana,Private,Student,HIGH,VERIFIED,BR001,2026-03-20,2026-09-22 09:00:00,UPDATE,2026-09-22 09:00:00
+C000084,Neha,Verma,neha.verma84@example.com,+918822393017,1982-06-09,Delhi,Delhi,Private,Business Owner,LOW,VERIFIED,BR016,2020-03-12,2026-09-23 09:00:00,UPDATE,2026-09-23 09:00:00
+C000247,Tanvi,Gupta,tanvi.gupta247@example.com,+917427670241,2001-03-25,Jaipur,Rajasthan,Private,Self Employed,HIGH,VERIFIED,BR014,2021-04-08,2026-09-24 09:00:00,UPDATE,2026-09-24 09:00:00
+C000469,Deepak,Patil,deepak.patil469@example.com,+917126555049,1985-02-19,Jaipur,Rajasthan,Private,Business Owner,HIGH,VERIFIED,BR003,2023-04-15,2026-09-25 09:00:00,UPDATE,2026-09-25 09:00:00
+C000117,Aman,Deshmukh,aman.deshmukh117@example.com,+919587283948,1973-09-18,Solapur,Maharashtra,Private,Retired,HIGH,PENDING,BR016,2024-03-15,2026-09-26 09:00:00,UPDATE,2026-09-26 09:00:00
+C000120,Akash,Kulkarni,akash.kulkarni120@example.com,+918651339677,2001-07-06,Delhi,Delhi,Preferred,Retired,HIGH,VERIFIED,BR019,2026-04-23,2026-09-27 09:00:00,UPDATE,2026-09-27 09:00:00
+C000025,Deepak,Shah,deepak.shah25@example.com,+917874443787,1983-09-07,Delhi,Delhi,Preferred,Business Owner,MEDIUM,VERIFIED,BR003,2026-02-11,2026-09-28 09:00:00,UPDATE,2026-09-28 09:00:00
+C000257,Suresh,Kulkarni,suresh.kulkarni257@example.com,+917059242317,1983-07-10,Mumbai,Maharashtra,Mass Affluent,Salaried,MEDIUM,VERIFIED,BR010,2026-01-18,2026-09-29 09:00:00,UPDATE,2026-09-29 09:00:00
+C000491,Rohan,Patil,rohan.patil491@example.com,+919271808426,1967-11-12,Pune,Maharashtra,Mass Affluent,Retired,LOW,VERIFIED,BR010,2023-10-16,2026-09-06 21:28:00,DELETE,2026-09-15 09:00:00
+C000492,Rohan,Gupta,rohan.gupta492@example.com,+919676813221,1991-09-30,Solapur,Maharashtra,Preferred,Student,LOW,VERIFIED,BR016,2024-07-10,2026-09-03 19:37:00,DELETE,2026-09-16 09:00:00
+C000493,Tanvi,Iyer,tanvi.iyer493@example.com,+917831314297,1960-02-21,Delhi,Delhi,Mass,Professional,LOW,VERIFIED,BR007,2025-11-25,2026-08-15 09:54:00,DELETE,2026-09-17 09:00:00
+C000494,Meera,Pawar,meera.pawar494@example.com,+919406966240,1979-01-18,Mumbai,Maharashtra,Mass,Self Employed,MEDIUM,VERIFIED,BR003,2022-06-14,2026-08-22 11:56:00,DELETE,2026-09-18 09:00:00
+C000495,Diya,Bhosale,diya.bhosale495@example.com,+917488925154,1989-11-25,Ahmedabad,Gujarat,Mass,Retired,LOW,PENDING,BR006,2021-03-05,2026-08-21 00:12:00,DELETE,2026-09-19 09:00:00
+C000496,Ishaan,Gupta,ishaan.gupta496@example.com,+917152721525,1972-03-06,Jaipur,Rajasthan,Mass Affluent,Retired,LOW,VERIFIED,BR011,2024-03-09,2026-08-31 16:11:00,DELETE,2026-09-20 09:00:00
+C000497,Tanvi,Pawar,tanvi.pawar497@example.com,+918285671613,1988-04-21,Indore,Madhya Pradesh,Mass Affluent,Salaried,LOW,VERIFIED,BR012,2019-09-29,2026-08-04 17:47:00,DELETE,2026-09-21 09:00:00
+C000498,Ananya,Reddy,ananya.reddy498@example.com,+919690843594,2007-12-07,Mumbai,Maharashtra,Preferred,Student,LOW,VERIFIED,BR004,2022-06-16,2026-08-22 12:48:00,DELETE,2026-09-22 09:00:00
+C000499,Shreya,Gupta,shreya.gupta499@example.com,+918777556269,1967-10-15,Indore,Madhya Pradesh,Mass Affluent,Self Employed,LOW,VERIFIED,BR010,2021-06-04,2026-08-03 09:16:00,DELETE,2026-09-23 09:00:00
+C000500,Pooja,Shah,pooja.shah500@example.com,+917160610438,1978-02-17,Nagpur,Maharashtra,Preferred,Professional,LOW,VERIFIED,BR017,2020-09-23,2026-08-08 12:46:00,DELETE,2026-09-24 09:00:00
