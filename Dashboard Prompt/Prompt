@@ -1,0 +1,239 @@
+Create a professional, executive-level AI/BI dashboard for DMC Bank using the Gold-layer tables/materialized views created by my Lakeflow Pipeline.
+
+IMPORTANT:
+- Use only the existing Gold-layer tables/views and their actual columns.
+- Do not invent columns, metrics, dimensions, or business logic.
+- Inspect the available schemas before creating the dashboard.
+- Use Indian Rupees (₹ / INR) for all monetary values.
+- Format large monetary values appropriately for Indian users, using ₹, lakhs, or crores where appropriate.
+- Use meaningful business-friendly titles and labels.
+- Create a clean, professional enterprise banking dashboard suitable for senior management.
+- Prefer clear visual hierarchy over excessive visualizations.
+- Use Genie Code Agent mode to plan, build, review, and refine the dashboard.
+
+DASHBOARD NAME:
+DMC Bank — Executive Banking Analytics
+
+OVERALL DESIGN:
+Create a multi-page executive dashboard with a clean enterprise banking/financial-services style.
+
+Use:
+- KPI cards
+- Trend charts
+- Comparison charts
+- Tables where useful
+- Appropriate conditional formatting
+- Global filters
+- Page-level filters
+- Visualization/widget-level filters
+- Clear titles and descriptions
+- Consistent INR formatting
+- Consistent number formatting
+- Logical layout and spacing
+
+PAGE 1 — EXECUTIVE OVERVIEW
+
+Create an executive summary page focused on the overall health and performance of DMC Bank.
+
+Include KPI cards for metrics that can be derived from the available Gold tables, such as:
+
+- Total Transaction Amount
+- Total Transaction Count
+- Active Customers
+- Average Transaction Value
+- Total Accounts
+- Other relevant executive KPIs available from the Gold layer
+
+For monetary KPIs:
+- Display values in ₹ / INR.
+- Use appropriate Indian number formatting.
+- For large numbers, use lakhs/crores where appropriate.
+- Include meaningful labels and supporting context where useful.
+
+Create visualizations such as:
+
+1. Transaction Amount Trend Over Time
+   - Use a line or area chart.
+   - Show transaction amount over time.
+   - Use INR formatting.
+
+2. Transaction Volume Trend
+   - Show transaction count over time.
+
+3. Customer Activity
+   - Show customer activity or customer transaction metrics available from the Gold layer.
+
+4. Account Performance
+   - Show account-related metrics available from the Gold layer.
+
+5. Transaction Analysis
+   - Show relevant transaction breakdowns available from the actual data.
+
+CONDITIONAL FORMATTING:
+Apply conditional formatting where it adds business value.
+
+Examples:
+- Highlight KPI values when they exceed or fall below meaningful thresholds.
+- Highlight positive/negative changes where a comparison metric is available.
+- Use conditional formatting in tables to make high/low transaction values easy to identify.
+- Highlight unusual or low-performing values where the available data supports such logic.
+- Do not invent arbitrary business thresholds if they cannot be reasonably derived from the available data. Where appropriate, use relative comparisons, such as above/below average.
+
+GLOBAL FILTERS:
+
+Create global dashboard filters that can apply across multiple pages/visualizations where the required fields exist.
+
+Include relevant filters such as:
+
+- Date / Transaction Date
+- Customer
+- Customer Segment, if available
+- Account
+- Transaction Type, if available
+- Transaction Status, if available
+
+Only create filters for dimensions that actually exist in the underlying Gold datasets.
+
+PAGE 2 — CUSTOMER ANALYTICS
+
+Create a customer-focused analytics page.
+
+Include relevant metrics and visualizations such as:
+
+- Total Customers
+- Active Customers
+- Customer transaction activity
+- Customer transaction amount
+- Customer/account relationship metrics
+- Customer trends over time
+- Top customers by transaction amount, where appropriate
+
+Add page-level filters relevant to customer analytics.
+
+Examples:
+- Date
+- Customer Segment
+- Customer
+- Account
+
+Apply appropriate conditional formatting to customer tables and rankings.
+
+For example:
+- Highlight customers with higher transaction amounts.
+- Highlight above/below-average customer activity.
+- Use meaningful sorting and ranking.
+
+PAGE 3 — TRANSACTION ANALYTICS
+
+Create a transaction-focused analytics page.
+
+Include:
+
+- Total transaction amount
+- Transaction count
+- Average transaction value
+- Transaction trends
+- Transaction breakdowns by available dimensions
+- Transaction summary table
+- Relevant transaction comparisons
+
+Add page-level filters such as:
+
+- Date
+- Transaction Type
+- Transaction Status
+- Customer
+- Account
+
+Only use filters when the corresponding columns actually exist.
+
+VISUAL-LEVEL FILTERS:
+
+Where useful, apply visualization/widget-level filters.
+
+Examples:
+- Top N customers by transaction amount
+- Top N accounts by transaction activity
+- Recent transaction periods
+- Relevant transaction categories
+- Exclude null/invalid categories where appropriate
+
+Do not apply unnecessary filters to every visualization.
+
+FILTER DESIGN:
+
+Use a combination of:
+
+1. Global filters
+   - Filters that should affect multiple pages/visualizations.
+
+2. Page-level filters
+   - Filters specific to Customer Analytics or Transaction Analytics.
+
+3. Visualization-level filters
+   - Filters required for a specific chart or table, such as Top N or excluding irrelevant values.
+
+Make the filter behavior intuitive for business users.
+
+INTERACTIVITY:
+
+Where supported and appropriate:
+
+- Enable cross-filtering between related visualizations.
+- Allow users to select a customer, date, account, or transaction dimension and explore related data.
+- Make the dashboard interactive without making it visually cluttered.
+
+EXECUTIVE EXPERIENCE:
+
+The dashboard should answer questions such as:
+
+- How much money is flowing through the bank?
+- How many transactions are happening?
+- How many customers are active?
+- How is transaction activity changing over time?
+- Which customers/accounts are generating the most activity?
+- What are the major transaction patterns?
+- Are there any unusually high or low values?
+
+Do not create separate visualizations for every possible question. Prioritize the most useful executive insights.
+
+DATA AND GOVERNANCE:
+
+- Use the existing Gold-layer tables/materialized views from the Lakeflow Pipeline.
+- Respect Unity Catalog permissions.
+- Do not create duplicate datasets unnecessarily.
+- Reuse existing Gold-layer business logic wherever possible.
+- Do not modify the underlying Lakeflow Pipeline.
+- Do not invent business definitions that are not supported by the data.
+
+FINAL REVIEW AND REFINEMENT:
+
+After creating the dashboard:
+
+1. Review every dataset.
+2. Review every visualization.
+3. Check all filters.
+4. Check global, page-level, and visualization-level filter behavior.
+5. Check INR/₹ formatting.
+6. Check conditional formatting.
+7. Check chart titles and labels.
+8. Check for incorrect or empty visualizations.
+9. Check the overall page layout and visual hierarchy.
+10. Fix any errors or inconsistencies.
+11. Refine the dashboard to make it look like a professional executive banking dashboard.
+
+IMPORTANT:
+Use the actual Gold-layer tables and columns available in the workspace. Do not assume column names.
+
+Where appropriate, use these existing Gold datasets if they are available:
+
+
+source: yt_dev.gold
+- customer_360
+- account_metrics
+- transaction_summary
+- daily_transaction_trends
+
+If any of these names do not exist, inspect the available Gold-layer datasets and use the correct existing objects instead.
+
+The final result should be a polished, interactive, executive-level DMC Bank AI/BI dashboard built from the existing Lakeflow Gold layer.
