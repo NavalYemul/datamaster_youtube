@@ -1,0 +1,169 @@
+resources:
+  jobs:
+    dmc_bank_e2e_daily:
+      name: dmc_bank_e2e_daily
+      description: "DMC Bank end-to-end job: ingestion precheck -> if new data -> SDP
+        pipeline (bronze/silver/gold) -> optional per-entity DQ (for-each) ->
+        executive dashboard refresh, with audit + failure alert."
+      email_notifications:
+        on_failure:
+          - navallyemul@gmail.com
+        on_duration_warning_threshold_exceeded:
+          - navallyemul@gmail.com
+      timeout_seconds: 7200
+      health:
+        rules:
+          - metric: RUN_DURATION_SECONDS
+            op: GREATER_THAN
+            value: 3600
+      trigger:
+        pause_status: UNPAUSED
+        file_arrival:
+          url: /Volumes/yt_dev/bronze/dmc_bank_raw/
+      tasks:
+        - task_key: ingestion_precheck
+          notebook_task:
+            notebook_path: /Workspace/Users/navallyemul@gmail.com/datamaster_youtube/Lakeflow
+              Jobs/ingestion
+            source: WORKSPACE
+          max_retries: 2
+          min_retry_interval_millis: 60000
+          timeout_seconds: 900
+          description: Scan landing volume vs bronze; publish has_new_files, file_count,
+            entities
+        - task_key: if_new_data
+          depends_on:
+            - task_key: ingestion_precheck
+          condition_task:
+            op: EQUAL_TO
+            left: "{{tasks.ingestion_precheck.values.has_new_files}}"
+            right: "true"
+          description: Branch on whether new files landed (or force_run)
+        - task_key: transformation_pipeline
+          depends_on:
+            - task_key: if_new_data
+              outcome: "true"
+          pipeline_task:
+            pipeline_id: f3d3a612-3ecc-4bef-84e5-f402ab077dcc
+            full_refresh: false
+          max_retries: 2
+          min_retry_interval_millis: 120000
+          timeout_seconds: 3600
+          description: "Run DMC Bank SDP pipeline: bronze -> silver -> gold"
+        - task_key: if_run_dq
+          depends_on:
+            - task_key: transformation_pipeline
+          condition_task:
+            op: EQUAL_TO
+            left: "{{job.parameters.run_dq}}"
+            right: "true"
+          description: Branch on job parameter run_dq
+        - task_key: dq_for_each_entity
+          depends_on:
+            - task_key: if_run_dq
+              outcome: "true"
+          for_each_task:
+            inputs: "{{tasks.ingestion_precheck.values.entities}}"
+            concurrency: 3
+            task:
+              task_key: dq_check_iteration
+              notebook_task:
+                notebook_path: /Workspace/Users/navallyemul@gmail.com/datamaster_youtube/Lakeflow
+                  Jobs/dq_check
+                base_parameters:
+                  entity: "{{input}}"
+                  run_id: "{{job.run_id}}"
+                source: WORKSPACE
+              min_retry_interval_millis: 0
+              disable_auto_optimization: true
+              timeout_seconds: 900
+          description: "For-each entity: silver DQ checks"
+        - task_key: no_data_handler
+          depends_on:
+            - task_key: if_new_data
+              outcome: "false"
+          notebook_task:
+            notebook_path: /Workspace/Users/navallyemul@gmail.com/datamaster_youtube/Lakeflow
+              Jobs/no_data_handler
+            base_parameters:
+              job_id: "{{job.id}}"
+              run_id: "{{job.run_id}}"
+            source: WORKSPACE
+          max_retries: 1
+          min_retry_interval_millis: 30000
+          timeout_seconds: 600
+          description: "Else branch: log skip and end cleanly"
+        - task_key: refresh_business_dashboard
+          depends_on:
+            - task_key: dq_for_each_entity
+            - task_key: if_run_dq
+              outcome: "false"
+          run_if: AT_LEAST_ONE_SUCCESS
+          dashboard_task:
+            subscription:
+              attachment:
+                page_attachment: {}
+            warehouse_id: 1b87b213d0a0e3a8
+            dashboard_id: 01f1b8a208441e32949c45fe32cbfd8d
+          max_retries: 1
+          min_retry_interval_millis: 60000
+          timeout_seconds: 1200
+          description: Refresh executive dashboard (runs after DQ passes, or directly when
+            run_dq=false)
+        - task_key: audit_log
+          depends_on:
+            - task_key: no_data_handler
+            - task_key: refresh_business_dashboard
+          run_if: ALL_DONE
+          notebook_task:
+            notebook_path: /Workspace/Users/navallyemul@gmail.com/datamaster_youtube/Lakeflow
+              Jobs/audit_log
+            base_parameters:
+              job_id: "{{job.id}}"
+              run_id: "{{job.run_id}}"
+              mode: completed
+              file_count: "{{tasks.ingestion_precheck.values.file_count}}"
+            source: WORKSPACE
+          max_retries: 1
+          min_retry_interval_millis: 30000
+          timeout_seconds: 600
+          description: Always record run completion
+        - task_key: failure_alert
+          depends_on:
+            - task_key: ingestion_precheck
+            - task_key: transformation_pipeline
+            - task_key: dq_for_each_entity
+            - task_key: refresh_business_dashboard
+          run_if: AT_LEAST_ONE_FAILED
+          notebook_task:
+            notebook_path: /Workspace/Users/navallyemul@gmail.com/datamaster_youtube/Lakeflow
+              Jobs/audit_log
+            base_parameters:
+              job_id: "{{job.id}}"
+              run_id: "{{job.run_id}}"
+              mode: failure
+            source: WORKSPACE
+          min_retry_interval_millis: 0
+          disable_auto_optimization: true
+          timeout_seconds: 600
+          description: Runs only if any core task failed; logs FAILED and keeps the run red
+      tags:
+        env: dev
+        owner: data_engineering
+        project: dmc_bank
+      queue:
+        enabled: true
+      parameters:
+        - name: catalog
+          default: yt_dev
+        - name: source_volume
+          default: /Volumes/yt_dev/bronze/dmc_bank_raw
+        - name: entities
+          default: '["customer","account","transaction"]'
+        - name: run_dq
+          default: "true"
+        - name: min_rows
+          default: "1"
+        - name: force_run
+          default: "false"
+      performance_target: PERFORMANCE_OPTIMIZED
